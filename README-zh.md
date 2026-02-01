@@ -8,7 +8,11 @@
 [![license](https://img.shields.io/npm/l/figcraft)](./LICENSE)
 
 <p align="center">
-  <img src="https://figcraft.xflowing.com/assets/diagrams/flowchart.svg" width="600" alt="Figcraft 示例输出">
+  <img src="gallery/transformer.svg" width="600" alt="Transformer 架构图">
+</p>
+
+<p align="center">
+  <img src="gallery/image-classification-cnn.svg" width="700" alt="CNN 图像分类流水线">
 </p>
 
 ## 特性

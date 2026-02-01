@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1138" height="1027" viewBox="0 0 1138 1027">
+  <rect x="0" y="0" width="1138" height="1027" fill="#ffffff" />
+  <g id="rect_46">
+    <rect x="767" y="772" width="341" height="176" rx="8" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_45">
+    <rect x="452" y="772" width="301" height="176" rx="8" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_44">
+    <rect x="137" y="772" width="306" height="176" rx="8" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_30">
+    <rect x="767" y="422" width="341" height="176" rx="8" fill="#ffedd5" stroke="#e65100" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_29">
+    <rect x="452" y="422" width="301" height="176" rx="8" fill="#dcfce7" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_28">
+    <rect x="137" y="422" width="306" height="176" rx="8" fill="#dbeafe" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_14">
+    <rect x="767" y="72" width="341" height="176" rx="8" fill="none" stroke="#e65100" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_13">
+    <rect x="452" y="72" width="301" height="176" rx="8" fill="none" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_12">
+    <rect x="137" y="72" width="306" height="176" rx="8" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="text_1">
+  </g>
+  <g id="stack_2">
+    <rect x="40" y="100" width="75" height="120" rx="4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" />
+    <rect x="35" y="105" width="75" height="120" rx="4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" />
+    <rect x="30" y="110" width="75" height="120" rx="4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" />
+  </g>
+  <g id="stack_3">
+    <rect x="167" y="98" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="163" y="102" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="159" y="106" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="155" y="110" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="stack_4">
+    <rect x="272" y="98" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="268" y="102" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="264" y="106" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="260" y="110" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_5">
+    <polygon points="377,110 413,110 425,230 365,230" fill="#e0f7fa" stroke="#00838f" stroke-width="1.5" />
+  </g>
+  <g id="stack_6">
+    <rect x="482" y="98" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="478" y="102" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="474" y="106" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="470" y="110" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="stack_7">
+    <rect x="587" y="98" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="583" y="102" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="579" y="106" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="575" y="110" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_8">
+    <polygon points="692.38,110 722.63,110 735,230 680,230" fill="#e0f7fa" stroke="#00838f" stroke-width="1.5" />
+  </g>
+  <g id="cuboid_9">
+    <polygon points="865,110 879,96 879,216 865,230" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="865,110 879,96 879,216 865,230" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="785,110 799,96 879,96 865,110" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="785,110 799,96 879,96 865,110" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="785" y="110" width="80" height="120" fill="#fff3e0" rx="3" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_10">
+    <rect x="910" y="110" width="65" height="120" rx="3" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" stroke-dasharray="4 3" />
+  </g>
+  <g id="cuboid_11">
+    <polygon points="1090,110 1102,98 1102,218 1090,230" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="1090,110 1102,98 1102,218 1090,230" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="1015,110 1027,98 1102,98 1090,110" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="1015,110 1027,98 1102,98 1090,110" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="1015" y="110" width="75" height="120" fill="#fff3e0" rx="3" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="text_15">
+  </g>
+  <g id="text_16">
+  </g>
+  <g id="text_17">
+  </g>
+  <g id="stack_18">
+    <rect x="40" y="450" width="75" height="120" rx="4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" />
+    <rect x="35" y="455" width="75" height="120" rx="4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" />
+    <rect x="30" y="460" width="75" height="120" rx="4" fill="#e8eaf6" stroke="#3949ab" stroke-width="1.5" />
+  </g>
+  <g id="stack_19">
+    <rect x="167" y="448" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="163" y="452" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="159" y="456" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="155" y="460" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="stack_20">
+    <rect x="272" y="448" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="268" y="452" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="264" y="456" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="260" y="460" width="70" height="120" rx="3" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_21">
+    <polygon points="377,460 413,460 425,580 365,580" fill="#e0f7fa" stroke="#00838f" stroke-width="1.5" />
+  </g>
+  <g id="stack_22">
+    <rect x="482" y="448" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="478" y="452" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="474" y="456" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="470" y="460" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="stack_23">
+    <rect x="587" y="448" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="583" y="452" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="579" y="456" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="575" y="460" width="70" height="120" rx="3" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_24">
+    <polygon points="692.38,460 722.63,460 735,580 680,580" fill="#e0f7fa" stroke="#00838f" stroke-width="1.5" />
+  </g>
+  <g id="cuboid_25">
+    <polygon points="865,460 879,446 879,566 865,580" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="865,460 879,446 879,566 865,580" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="785,460 799,446 879,446 865,460" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="785,460 799,446 879,446 865,460" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="785" y="460" width="80" height="120" fill="#fff3e0" rx="3" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_26">
+    <rect x="910" y="460" width="65" height="120" rx="3" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" stroke-dasharray="4 3" />
+  </g>
+  <g id="cuboid_27">
+    <polygon points="1090,460 1102,448 1102,568 1090,580" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="1090,460 1102,448 1102,568 1090,580" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="1015,460 1027,448 1102,448 1090,460" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="1015,460 1027,448 1102,448 1090,460" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="1015" y="460" width="75" height="120" fill="#fff3e0" rx="3" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="text_31">
+  </g>
+  <g id="text_32">
+  </g>
+  <g id="text_33">
+  </g>
+  <g id="stack_34">
+    <rect x="40" y="800" width="75" height="120" rx="4" fill="#e0e0e0" stroke="#000" stroke-width="1.5" />
+    <rect x="35" y="805" width="75" height="120" rx="4" fill="#e0e0e0" stroke="#000" stroke-width="1.5" />
+    <rect x="30" y="810" width="75" height="120" rx="4" fill="#e0e0e0" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="stack_35">
+    <rect x="167" y="798" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+    <rect x="163" y="802" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+    <rect x="159" y="806" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+    <rect x="155" y="810" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="stack_36">
+    <rect x="272" y="798" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+    <rect x="268" y="802" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+    <rect x="264" y="806" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+    <rect x="260" y="810" width="70" height="120" rx="3" fill="#d0d0d0" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_37">
+    <polygon points="377,810 413,810 425,930 365,930" fill="#c0c0c0" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="stack_38">
+    <rect x="482" y="798" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+    <rect x="478" y="802" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+    <rect x="474" y="806" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+    <rect x="470" y="810" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="stack_39">
+    <rect x="587" y="798" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+    <rect x="583" y="802" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+    <rect x="579" y="806" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+    <rect x="575" y="810" width="70" height="120" rx="3" fill="#b0b0b0" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_40">
+    <polygon points="692.38,810 722.63,810 735,930 680,930" fill="#c0c0c0" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="cuboid_41">
+    <polygon points="865,810 879,796 879,916 865,930" fill="#a0a0a0" stroke="#000" stroke-width="1.5" />
+    <polygon points="865,810 879,796 879,916 865,930" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="785,810 799,796 879,796 865,810" fill="#a0a0a0" stroke="#000" stroke-width="1.5" />
+    <polygon points="785,810 799,796 879,796 865,810" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="785" y="810" width="80" height="120" fill="#a0a0a0" rx="3" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="rect_42">
+    <rect x="910" y="810" width="65" height="120" rx="3" fill="#e8e8e8" stroke="#000" stroke-width="1.5" stroke-dasharray="4 3" />
+  </g>
+  <g id="cuboid_43">
+    <polygon points="1090,810 1102,798 1102,918 1090,930" fill="#a0a0a0" stroke="#000" stroke-width="1.5" />
+    <polygon points="1090,810 1102,798 1102,918 1090,930" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="1015,810 1027,798 1102,798 1090,810" fill="#a0a0a0" stroke="#000" stroke-width="1.5" />
+    <polygon points="1015,810 1027,798 1102,798 1090,810" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="1015" y="810" width="75" height="120" fill="#a0a0a0" rx="3" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="text_47">
+  </g>
+  <g id="text_48">
+  </g>
+  <g class="flowing-arrow">
+    <line x1="105" y1="170" x2="149.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="155,170 148.25,174.29 148.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="225" y1="170" x2="254.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="260,170 253.25,174.29 253.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="330" y1="170" x2="359.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="365,170 358.25,174.29 358.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="425" y1="170" x2="464.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="470,170 463.25,174.29 463.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="540" y1="170" x2="569.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="575,170 568.25,174.29 568.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="645" y1="170" x2="674.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="680,170 673.25,174.29 673.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="735" y1="170" x2="779.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="785,170 778.25,174.29 778.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="865" y1="170" x2="904.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="910,170 903.25,174.29 903.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="975" y1="170" x2="1009.4" y2="170" stroke="#555" stroke-width="1.5" />
+    <polygon points="1015,170 1008.25,174.29 1008.25,165.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="105" y1="520" x2="149.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="155,520 148.25,524.29 148.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="225" y1="520" x2="254.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="260,520 253.25,524.29 253.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="330" y1="520" x2="359.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="365,520 358.25,524.29 358.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="425" y1="520" x2="464.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="470,520 463.25,524.29 463.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="540" y1="520" x2="569.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="575,520 568.25,524.29 568.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="645" y1="520" x2="674.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="680,520 673.25,524.29 673.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="735" y1="520" x2="779.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="785,520 778.25,524.29 778.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="865" y1="520" x2="904.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="910,520 903.25,524.29 903.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="975" y1="520" x2="1009.4" y2="520" stroke="#555" stroke-width="1.5" />
+    <polygon points="1015,520 1008.25,524.29 1008.25,515.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="105" y1="870" x2="149.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="155,870 148.25,874.29 148.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="225" y1="870" x2="254.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="260,870 253.25,874.29 253.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="330" y1="870" x2="359.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="365,870 358.25,874.29 358.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="425" y1="870" x2="464.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="470,870 463.25,874.29 463.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="540" y1="870" x2="569.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="575,870 568.25,874.29 568.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="645" y1="870" x2="674.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="680,870 673.25,874.29 673.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="735" y1="870" x2="779.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="785,870 778.25,874.29 778.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="865" y1="870" x2="904.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="910,870 903.25,874.29 903.25,865.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="975" y1="870" x2="1009.4" y2="870" stroke="#000" stroke-width="1.5" />
+    <polygon points="1015,870 1008.25,874.29 1008.25,865.71" fill="#000" />
+  </g>
+  <text x="777" y="785" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">Classifier</text>
+  <text x="462" y="785" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">Block 2</text>
+  <text x="147" y="785" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">Block 1</text>
+  <text x="777" y="435" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">Classifier</text>
+  <text x="462" y="435" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Block 2</text>
+  <text x="147" y="435" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">Block 1</text>
+  <text x="777" y="85" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">Classifier</text>
+  <text x="462" y="85" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Block 2</text>
+  <text x="147" y="85" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">Block 1</text>
+  <text x="600" y="42" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="16" font-weight="normal" fill="#333"><tspan font-weight="bold">Style 1 — Outline</tspan></text>
+  <text x="67.5" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#3949ab">224×224</text>
+  <text x="190" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#1565c0">Conv 64</text>
+  <text x="295" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#1565c0">Conv 64</text>
+  <text x="395" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#00838f">Pool</text>
+  <text x="505" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#2e7d32">Conv 128</text>
+  <text x="610" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#2e7d32">Conv 128</text>
+  <text x="707.5" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#00838f">Pool</text>
+  <text x="825" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">FC 512</text>
+  <text x="942.5" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#c62828">Dropout</text>
+  <text x="1052.5" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">FC 1000</text>
+  <text x="290" y="285" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#888">BatchNorm + ReLU after each Conv</text>
+  <text x="600" y="285" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#888">Feature maps: 64 → 128</text>
+  <text x="600" y="392" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="16" font-weight="normal" fill="#333"><tspan font-weight="bold">Style 2 — Filled Groups</tspan></text>
+  <text x="67.5" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#3949ab">224×224</text>
+  <text x="190" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#1565c0">Conv 64</text>
+  <text x="295" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#1565c0">Conv 64</text>
+  <text x="395" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#00838f">Pool</text>
+  <text x="505" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#2e7d32">Conv 128</text>
+  <text x="610" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#2e7d32">Conv 128</text>
+  <text x="707.5" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#00838f">Pool</text>
+  <text x="825" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">FC 512</text>
+  <text x="942.5" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#c62828">Dropout</text>
+  <text x="1052.5" y="520" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">FC 1000</text>
+  <text x="290" y="635" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#888">BatchNorm + ReLU after each Conv</text>
+  <text x="600" y="635" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#888">Feature maps: 64 → 128</text>
+  <text x="600" y="742" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="16" font-weight="normal" fill="#333"><tspan font-weight="bold">Style 3 — Monochrome</tspan></text>
+  <text x="67.5" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">224×224</text>
+  <text x="190" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#000">Conv 64</text>
+  <text x="295" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#000">Conv 64</text>
+  <text x="395" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#000">Pool</text>
+  <text x="505" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#000">Conv 128</text>
+  <text x="610" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#000">Conv 128</text>
+  <text x="707.5" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#000">Pool</text>
+  <text x="825" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">FC 512</text>
+  <text x="942.5" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#000">Dropout</text>
+  <text x="1052.5" y="870" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">FC 1000</text>
+  <text x="290" y="985" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#666">BatchNorm + ReLU after each Conv</text>
+  <text x="600" y="985" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#666">Feature maps: 64 → 128</text>
+</svg>

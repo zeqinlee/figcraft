@@ -8,7 +8,11 @@ Write a few lines of TypeScript, get publication-ready architecture diagrams —
 [![license](https://img.shields.io/npm/l/figcraft)](./LICENSE)
 
 <p align="center">
-  <img src="https://figcraft.xflowing.com/assets/diagrams/flowchart.svg" width="600" alt="Figcraft example output">
+  <img src="gallery/transformer.svg" width="600" alt="Transformer architecture diagram">
+</p>
+
+<p align="center">
+  <img src="gallery/image-classification-cnn.svg" width="700" alt="CNN image classification pipeline">
 </p>
 
 ## Features
