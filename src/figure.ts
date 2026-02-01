@@ -1210,7 +1210,7 @@ export class Figure {
         } else {
           const vDir2 = toSide === 'top' ? -1 : 1
           const ey = toPt.y + endOffset * vDir2
-          endAngle = vDir2 < 0 ? -Math.PI / 2 : Math.PI / 2
+          endAngle = vDir2 < 0 ? Math.PI / 2 : -Math.PI / 2
           polyPoints = [
             { x: fromPt.x, y: sy },
             { x: fromPt.x, y: midY },
@@ -1360,7 +1360,7 @@ export class Figure {
         } else {
           const vDir2 = toSide === 'top' ? -1 : 1
           const ey = tgt.y + endOffset * vDir2
-          endAngle = vDir2 < 0 ? -Math.PI / 2 : Math.PI / 2
+          endAngle = vDir2 < 0 ? Math.PI / 2 : -Math.PI / 2
           branchPts = [
             srcPt,
             { x: srcPt.x, y: splitY },
@@ -1376,7 +1376,7 @@ export class Figure {
         if (toSide === 'top' || toSide === 'bottom') {
           const vDir2 = toSide === 'top' ? -1 : 1
           const ey = tgt.y + endOffset * vDir2
-          endAngle = vDir2 < 0 ? -Math.PI / 2 : Math.PI / 2
+          endAngle = vDir2 < 0 ? Math.PI / 2 : -Math.PI / 2
           const dropY = (srcPt.y + tgt.y) / 2
           branchPts = [
             srcPt,

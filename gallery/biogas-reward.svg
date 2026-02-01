@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="828" height="380" viewBox="-20 -10 828 380">
+  <rect x="-20" y="-10" width="828" height="380" fill="#fff" />
+  <g id="rect_1">
+    <rect x="240" y="20" width="300" height="44" rx="6" fill="none" stroke="#000" stroke-width="1.5" />
+  </g>
+  <g id="text_2">
+  </g>
+  <g id="rect_3">
+    <rect x="10" y="110" width="180" height="230" rx="6" fill="none" stroke="#000" stroke-width="1.5" />
+    <g id="rect_4">
+      <rect x="37" y="171.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_5">
+      <rect x="37" y="209.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_6">
+      <rect x="37" y="247.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="4 2" />
+    </g>
+  </g>
+  <g id="text_7">
+  </g>
+  <g id="rect_8">
+    <rect x="206" y="110" width="180" height="230" rx="6" fill="none" stroke="#000" stroke-width="1.5" />
+    <g id="rect_9">
+      <rect x="233" y="171.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_10">
+      <rect x="233" y="209.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_11">
+      <rect x="233" y="247.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="4 2" />
+    </g>
+  </g>
+  <g id="text_12">
+  </g>
+  <g id="rect_13">
+    <rect x="402" y="110" width="180" height="230" rx="6" fill="none" stroke="#000" stroke-width="1.5" />
+    <g id="rect_14">
+      <rect x="429" y="171.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_15">
+      <rect x="429" y="209.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_16">
+      <rect x="429" y="247.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+  </g>
+  <g id="text_17">
+  </g>
+  <g id="rect_18">
+    <rect x="598" y="110" width="180" height="230" rx="6" fill="none" stroke="#000" stroke-width="1.5" />
+    <g id="rect_19">
+      <rect x="625" y="171.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_20">
+      <rect x="625" y="209.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+    <g id="rect_21">
+      <rect x="625" y="247.8" width="126" height="30.4" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+    </g>
+  </g>
+  <g id="text_22">
+  </g>
+  <g class="flowing-fork">
+    <path d="M 390 64 L 390 78 A 6 6 0 0 1 384 84 L 106 84 A 6 6 0 0 0 100 90 L 100 104.4" fill="none" stroke="#000" stroke-width="1.5" />
+    <polygon points="100,110 96.47,101.07 100,105.2 103.53,101.07" fill="#000" />
+    <path d="M 390 64 L 390 78 A 6 6 0 0 1 384 84 L 302 84 A 6 6 0 0 0 296 90 L 296 104.4" fill="none" stroke="#000" stroke-width="1.5" />
+    <polygon points="296,110 292.47,101.07 296,105.2 299.53,101.07" fill="#000" />
+    <path d="M 390 64 L 390 78 A 6 6 0 0 0 396 84 L 486 84 A 6 6 0 0 1 492 90 L 492 104.4" fill="none" stroke="#000" stroke-width="1.5" />
+    <polygon points="492,110 488.47,101.07 492,105.2 495.53,101.07" fill="#000" />
+    <path d="M 390 64 L 390 78 A 6 6 0 0 0 396 84 L 682 84 A 6 6 0 0 1 688 90 L 688 104.4" fill="none" stroke="#000" stroke-width="1.5" />
+    <polygon points="688,110 684.47,101.07 688,105.2 691.53,101.07" fill="#000" />
+  </g>
+  <text x="390" y="42" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="11" font-weight="bold" fill="#000">r = r_profit + r_safety + r_signal + r_shape</text>
+  <text x="100" y="130" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="12" font-weight="bold" fill="#000">Economic Profit</text>
+  <text x="100" y="187" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Revenue</text>
+  <text x="100" y="225" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Feed Cost</text>
+  <text x="100" y="263" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Normalize</text>
+  <text x="100" y="326" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#000">r = (P·(p+b) − u·c) / 10</text>
+  <text x="296" y="130" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="12" font-weight="bold" fill="#000">Safety Penalties</text>
+  <text x="296" y="187" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Empty Penalty</text>
+  <text x="296" y="225" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Full Penalty</text>
+  <text x="296" y="263" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Gas Mgmt</text>
+  <text x="296" y="326" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#000">−3·p_empty − 2·p_full</text>
+  <text x="492" y="130" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="12" font-weight="bold" fill="#000">Price Signal</text>
+  <text x="492" y="187" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Feed Tracking</text>
+  <text x="492" y="225" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">P-Power Match</text>
+  <text x="492" y="263" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Price Response</text>
+  <text x="492" y="326" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#000">(1 − |u−u*|/Δu) × 0.3</text>
+  <text x="688" y="130" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="12" font-weight="bold" fill="#000">Operational Shaping</text>
+  <text x="688" y="187" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Dynamic Adj.</text>
+  <text x="688" y="225" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Future Anticip.</text>
+  <text x="688" y="263" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#000">Neg. Price</text>
+  <text x="688" y="326" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#000">Δu &gt; 0.05 → +0.2</text>
+</svg>

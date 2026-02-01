@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="435" viewBox="-5 -15 760 435">
+  <defs>
+    <linearGradient id="cylGrad_cylinder_5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.1)" />
+      <stop offset="50%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
+    </linearGradient>
+    <linearGradient id="cylGrad_cylinder_10" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.1)" />
+      <stop offset="50%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
+    </linearGradient>
+  </defs>
+  <rect x="-5" y="-15" width="760" height="435" fill="#ffffff" />
+  <g id="rect_1">
+    <rect x="25" y="15" width="340" height="375" rx="12" fill="#f1f8e9" stroke="#a5d6a7" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="rect_2">
+    <rect x="475" y="15" width="250" height="375" rx="12" fill="#f3e5f5" stroke="#ce93d8" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="text_3">
+  </g>
+  <g id="text_4">
+  </g>
+  <g id="cylinder_5">
+    <path d="M 130 56.5 L 130 77.5 A 65 4.5 0 0 0 260 77.5 L 260 56.5 A 65 4.5 0 0 1 130 56.5" fill="#fff3e0" stroke="#333" stroke-width="1.5" />
+    <path d="M 130 56.5 L 130 77.5 A 65 4.5 0 0 0 260 77.5 L 260 56.5 A 65 4.5 0 0 1 130 56.5" fill="url(#cylGrad_cylinder_5)" stroke="none" />
+    <ellipse cx="195" cy="56.5" rx="65" ry="4.5" fill="#fff3e0" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="text_6">
+  </g>
+  <g id="rect_7">
+    <rect x="50" y="118" width="290" height="36" rx="4" fill="#fffde7" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="rect_8">
+    <rect x="50" y="182" width="290" height="58" rx="4" fill="#e3f2fd" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="text_9">
+  </g>
+  <g id="cylinder_10">
+    <path d="M 50 277.2 L 50 310.8 A 62.5 7.2 0 0 0 175 310.8 L 175 277.2 A 62.5 7.2 0 0 1 50 277.2" fill="#e8f5e9" stroke="#333" stroke-width="1.5" />
+    <path d="M 50 277.2 L 50 310.8 A 62.5 7.2 0 0 0 175 310.8 L 175 277.2 A 62.5 7.2 0 0 1 50 277.2" fill="url(#cylGrad_cylinder_10)" stroke="none" />
+    <ellipse cx="112.5" cy="277.2" rx="62.5" ry="7.2" fill="#e8f5e9" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="text_11">
+  </g>
+  <g id="trapezoid_12">
+    <polygon points="233.75,272 321.25,272 340,316 215,316" fill="#c8e6c9" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="text_13">
+  </g>
+  <g id="rect_14">
+    <rect x="50" y="348" width="290" height="36" rx="4" fill="#b2ebf2" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="text_15">
+  </g>
+  <g id="stack_16">
+    <rect x="501" y="52" width="220" height="26" rx="4" fill="#dcedc8" stroke="#333" stroke-width="1.5" />
+    <rect x="498" y="55" width="220" height="26" rx="4" fill="#dcedc8" stroke="#333" stroke-width="1.5" />
+    <rect x="495" y="58" width="220" height="26" rx="4" fill="#dcedc8" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="rect_17">
+    <rect x="495" y="118" width="105" height="50" rx="4" fill="#ede7f6" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="text_18">
+  </g>
+  <g id="rect_19">
+    <rect x="610" y="118" width="105" height="50" rx="4" fill="#ede7f6" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="text_20">
+  </g>
+  <g id="rect_21">
+    <rect x="495" y="194" width="105" height="24" rx="4" fill="#e1bee7" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="rect_22">
+    <rect x="610" y="194" width="105" height="24" rx="4" fill="#e1bee7" stroke="#333" stroke-width="1.5" />
+  </g>
+  <g id="rect_23">
+    <rect x="495" y="248" width="220" height="28" rx="4" fill="#f3e5f5" stroke="#ce93d8" stroke-width="1.5" stroke-dasharray="4 2" />
+  </g>
+  <g id="text_24">
+  </g>
+  <g id="text_25">
+  </g>
+  <g class="flowing-arrow">
+    <line x1="547.5" y1="168" x2="547.5" y2="188.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="547.5,194 543.97,185.07 547.5,189.2 551.03,185.07" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="662.5" y1="168" x2="662.5" y2="188.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="662.5,194 658.97,185.07 662.5,189.2 666.03,185.07" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="195" y1="82" x2="195" y2="112.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="195,118 191.47,109.07 195,113.2 198.53,109.07" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="195" y1="154" x2="195" y2="176.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="195,182 191.47,173.07 195,177.2 198.53,173.07" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="112.35" y1="240" x2="112.47" y2="264.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="112.5,270 108.92,261.09 112.48,265.2 115.99,261.06" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="175" y1="294" x2="209.4" y2="294" stroke="#333" stroke-width="1.5" />
+    <polygon points="215,294 206.07,297.53 210.2,294 206.07,290.47" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="277.5" y1="316" x2="277.38" y2="342.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="277.36,348 273.87,339.06 277.38,343.2 280.93,339.09" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="365" y1="165" x2="469.4" y2="165" stroke="#333" stroke-width="1.5" />
+    <polygon points="475,165 466.07,168.53 470.2,165 466.07,161.47" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="475" y1="258.75" x2="370.6" y2="258.75" stroke="#333" stroke-width="1.5" />
+    <polygon points="365,258.75 373.93,255.22 369.8,258.75 373.93,262.28" fill="#333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="365" y1="337.5" x2="469.4" y2="337.5" stroke="#333" stroke-width="1.5" stroke-dasharray="6 3" />
+    <polygon points="475,337.5 466.07,341.03 470.2,337.5 466.07,333.97" fill="#333" />
+  </g>
+  <g class="flowing-fork">
+    <path d="M 605 84 L 605 94 A 6 6 0 0 1 599 100 L 553.5 100 A 6 6 0 0 0 547.5 106 L 547.5 112.4" fill="none" stroke="#333" stroke-width="1.5" />
+    <polygon points="547.5,118 543.97,109.07 547.5,113.2 551.03,109.07" fill="#333" />
+    <path d="M 605 84 L 605 94 A 6 6 0 0 0 611 100 L 656.5 100 A 6 6 0 0 1 662.5 106 L 662.5 112.4" fill="none" stroke="#333" stroke-width="1.5" />
+    <polygon points="662.5,118 658.97,109.07 662.5,113.2 666.03,109.07" fill="#333" />
+  </g>
+  <text x="195" y="37" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="13" font-weight="bold" fill="#333">Biogas Plant Environment</text>
+  <text x="600" y="37" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="13" font-weight="bold" fill="#333">PPO Agent</text>
+  <text x="195" y="74" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#333">Electricity Price</text>
+  <text x="195" y="136" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="11" font-weight="normal" fill="#333">Substrate Feed</text>
+  <text x="195" y="211" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="12" font-weight="bold" fill="#333">Anaerobic Digester</text>
+  <text x="195" y="224" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#1565c0">x' = Ax + Bu,  y = Cx</text>
+  <text x="112.5" y="294" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#333">Gas Storage</text>
+  <text x="112" y="308" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="8" font-weight="normal" fill="#555">1810 m³</text>
+  <text x="277.5" y="294" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#333">CHP Unit</text>
+  <text x="277" y="308" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="8" font-weight="normal" fill="#555">150–275 kW</text>
+  <text x="195" y="366" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="11" font-weight="normal" fill="#333">Reward</text>
+  <text x="195" y="376" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#006064">r = revenue − cost − penalty</text>
+  <text x="605" y="71" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#333">s (29D)</text>
+  <text x="547.5" y="143" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="11" font-weight="normal" fill="#333">Actor π(a|s)</text>
+  <text x="547" y="155" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="8" font-weight="normal" fill="#4527a0">[256, 256]</text>
+  <text x="662.5" y="143" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="11" font-weight="normal" fill="#333">Critic V(s)</text>
+  <text x="662" y="155" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="8" font-weight="normal" fill="#4527a0">[256, 256]</text>
+  <text x="547.5" y="206" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#333">a (2D)</text>
+  <text x="662.5" y="206" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#333">Value</text>
+  <text x="605" y="262" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="10" font-weight="normal" fill="#333">PPO Clipped Objective</text>
+  <text x="605" y="294" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="9" font-weight="normal" fill="#6a1b9a">GAE (λ=0.95, γ=0.99)</text>
+  <text x="605" y="310" text-anchor="middle" dominant-baseline="middle" font-family="Times New Roman" font-size="8" font-weight="normal" fill="#888">LR: 3e-4 → 3e-5</text>
+  <text x="420" y="157" text-anchor="middle" font-family="Times New Roman" font-size="11" fill="#333">Observation (29D)</text>
+  <text x="420" y="250.75" text-anchor="middle" font-family="Times New Roman" font-size="11" fill="#333">Action (2D)</text>
+  <text x="420" y="329.5" text-anchor="middle" font-family="Times New Roman" font-size="11" fill="#333">Reward</text>
+</svg>
