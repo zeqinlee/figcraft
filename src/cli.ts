@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const VERSION = '0.1.0'
+const VERSION = '0.1.1'
 
 const HELP_HEADER = `
 Figcraft v${VERSION} — Code-driven SVG diagram library
