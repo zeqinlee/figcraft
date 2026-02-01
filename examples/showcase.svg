@@ -1,0 +1,758 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1645" height="1109.75" viewBox="5 -9 1645 1109.75">
+  <defs>
+    <filter id="shadow_rect_4" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.15)" />
+    </filter>
+    <linearGradient id="cylGrad_cylinder_10" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.1)" />
+      <stop offset="50%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
+    </linearGradient>
+    <radialGradient id="sphereGrad_sphere_12" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.6)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+    <linearGradient id="cylGrad_cylinder_116" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.1)" />
+      <stop offset="50%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
+    </linearGradient>
+    <linearGradient id="cylGrad_cylinder_117" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.1)" />
+      <stop offset="50%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.1)" />
+    </linearGradient>
+    <radialGradient id="sphereGrad_sphere_119" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.6)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+  </defs>
+  <rect x="5" y="-9" width="1645" height="1109.75" fill="#ffffff" />
+  <g id="rect_84">
+    <rect x="906" y="258" width="148" height="88" rx="8" fill="none" stroke="#e65100" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+  <g id="rect_83">
+    <rect x="904" y="82" width="152" height="208" rx="8" fill="none" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="text_1">
+  </g>
+  <g id="rect_2">
+    <rect x="30" y="55" width="100" height="50" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="rect_3">
+    <rect x="150" y="55" width="100" height="50" rx="20" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="rect_4">
+    <rect x="30" y="120" width="100" height="50" rx="4" fill="#fff8e1" stroke="#f57f17" stroke-width="1.5" filter="url(#shadow_rect_4)" />
+  </g>
+  <g id="rect_5">
+    <rect x="150" y="120" width="100" height="50" fill="none" stroke="#666" stroke-width="1.5" stroke-dasharray="6 3" />
+  </g>
+  <g id="circle_6">
+    <circle cx="80" cy="225" r="35" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="diamond_7">
+    <polygon points="90,295 150,335 90,375 30,335" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_8">
+    <polygon points="192,305 258,305 280,365 170,365" fill="#e0f7fa" stroke="#00838f" stroke-width="1.5" />
+  </g>
+  <g id="text_9">
+  </g>
+  <g id="cylinder_10">
+    <path d="M 30 453.4 L 30 536.6 A 45 23.4 0 0 0 120 536.6 L 120 453.4 A 45 23.4 0 0 1 30 453.4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+    <path d="M 30 453.4 L 30 536.6 A 45 23.4 0 0 0 120 536.6 L 120 453.4 A 45 23.4 0 0 1 30 453.4" fill="url(#cylGrad_cylinder_10)" stroke="none" />
+    <ellipse cx="75" cy="453.4" rx="45" ry="23.4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="cuboid_11">
+    <polygon points="250,460 266,444 266,514 250,530" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+    <polygon points="250,460 266,444 266,514 250,530" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="150,460 166,444 266,444 250,460" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+    <polygon points="150,460 166,444 266,444 250,460" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="150" y="460" width="100" height="70" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="sphere_12">
+    <circle cx="95" cy="610" r="35" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+    <circle cx="95" cy="610" r="35" fill="url(#sphereGrad_sphere_12)" stroke="none" />
+  </g>
+  <g id="text_13">
+  </g>
+  <g id="rect_14">
+    <rect x="330" y="55" width="180" height="36" fill="#f5f5f5" stroke="#333333" stroke-width="1.5" />
+  </g>
+  <g id="rect_15">
+    <rect x="330" y="100" width="180" height="36" fill="#f5f5f5" stroke="#333333" stroke-width="1.5" />
+  </g>
+  <g id="rect_16">
+    <rect x="330" y="145" width="180" height="36" fill="#f5f5f5" stroke="#333333" stroke-width="1.5" />
+  </g>
+  <g id="rect_17">
+    <rect x="330" y="190" width="180" height="36" fill="#f5f5f5" stroke="#333333" stroke-width="1.5" />
+  </g>
+  <g id="rect_18">
+    <rect x="330" y="235" width="180" height="36" fill="#f5f5f5" stroke="#333333" stroke-width="1.5" />
+  </g>
+  <g id="text_19">
+  </g>
+  <g id="rect_20">
+    <rect x="590" y="55" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_21">
+    <rect x="710" y="55" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_22">
+  </g>
+  <g id="rect_23">
+    <rect x="590" y="85" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_24">
+    <rect x="710" y="85" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_25">
+  </g>
+  <g id="rect_26">
+    <rect x="590" y="115" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_27">
+    <rect x="710" y="115" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_28">
+  </g>
+  <g id="rect_29">
+    <rect x="590" y="145" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_30">
+    <rect x="710" y="145" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_31">
+  </g>
+  <g id="rect_32">
+    <rect x="590" y="175" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_33">
+    <rect x="710" y="175" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_34">
+  </g>
+  <g id="rect_35">
+    <rect x="590" y="205" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_36">
+    <rect x="710" y="205" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_37">
+  </g>
+  <g id="rect_38">
+    <rect x="590" y="235" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_39">
+    <rect x="710" y="235" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_40">
+  </g>
+  <g id="rect_41">
+    <rect x="590" y="265" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_42">
+    <rect x="710" y="265" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_43">
+  </g>
+  <g id="rect_44">
+    <rect x="590" y="295" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_45">
+    <rect x="710" y="295" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_46">
+  </g>
+  <g id="rect_47">
+    <rect x="590" y="325" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_48">
+    <rect x="710" y="325" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_49">
+  </g>
+  <g id="rect_50">
+    <rect x="590" y="355" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="rect_51">
+    <rect x="710" y="355" width="6" height="6" fill="#999" stroke="none" />
+  </g>
+  <g id="text_52">
+  </g>
+  <g id="text_53">
+  </g>
+  <g id="rect_54">
+    <rect x="590" y="430" width="6" height="6" fill="#1565c0" stroke="none" />
+  </g>
+  <g id="rect_55">
+    <rect x="710" y="430" width="6" height="6" fill="#1565c0" stroke="none" />
+  </g>
+  <g id="text_56">
+  </g>
+  <g id="rect_57">
+    <rect x="590" y="462" width="6" height="6" fill="#c62828" stroke="none" />
+  </g>
+  <g id="rect_58">
+    <rect x="710" y="462" width="6" height="6" fill="#c62828" stroke="none" />
+  </g>
+  <g id="text_59">
+  </g>
+  <g id="rect_60">
+    <rect x="590" y="494" width="6" height="6" fill="#2e7d32" stroke="none" />
+  </g>
+  <g id="rect_61">
+    <rect x="710" y="494" width="6" height="6" fill="#2e7d32" stroke="none" />
+  </g>
+  <g id="text_62">
+  </g>
+  <g id="rect_63">
+    <rect x="590" y="526" width="6" height="6" fill="#e67700" stroke="none" />
+  </g>
+  <g id="rect_64">
+    <rect x="710" y="526" width="6" height="6" fill="#e67700" stroke="none" />
+  </g>
+  <g id="text_65">
+  </g>
+  <g id="text_66">
+  </g>
+  <g id="rect_67">
+    <rect x="590" y="590" width="45" height="28" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="rect_68">
+    <rect x="720" y="590" width="45" height="28" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="text_69">
+  </g>
+  <g id="rect_70">
+    <rect x="590" y="630" width="45" height="28" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="rect_71">
+    <rect x="720" y="630" width="45" height="28" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="text_72">
+  </g>
+  <g id="rect_73">
+    <rect x="590" y="670" width="45" height="28" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_74">
+    <rect x="720" y="710" width="45" height="28" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="text_75">
+  </g>
+  <g id="text_76">
+  </g>
+  <g id="rect_77">
+    <rect x="920" y="60" width="120" height="40" fill="#f5f5f5" stroke="#333333" stroke-width="1.5" />
+  </g>
+  <g id="rect_78">
+    <rect x="920" y="118" width="120" height="40" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="rect_79">
+    <rect x="920" y="176" width="120" height="40" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_80">
+    <rect x="920" y="234" width="120" height="40" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_81">
+    <rect x="920" y="292" width="120" height="40" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_82">
+    <rect x="920" y="350" width="120" height="40" fill="#f5f5f5" stroke="#333333" stroke-width="1.5" />
+  </g>
+  <g id="text_85">
+  </g>
+  <g id="rect_86">
+    <rect x="870" y="460" width="70" height="36" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1.5" />
+  </g>
+  <g id="rect_87">
+    <rect x="956" y="460" width="50" height="36" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1.5" />
+  </g>
+  <g id="rect_88">
+    <rect x="1022" y="460" width="60" height="36" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1.5" />
+  </g>
+  <g id="rect_89">
+    <rect x="1098" y="460" width="50" height="36" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1.5" />
+  </g>
+  <g id="text_90">
+  </g>
+  <g id="rect_91">
+    <rect x="880" y="560" width="55" height="36" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_92">
+    <rect x="949" y="560" width="55" height="36" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_93">
+    <rect x="1018" y="560" width="55" height="36" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_94">
+    <rect x="880" y="610" width="55" height="36" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_95">
+    <rect x="949" y="610" width="55" height="36" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_96">
+    <rect x="1018" y="610" width="55" height="36" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="text_97">
+  </g>
+  <g id="rect_98">
+    <rect x="1250" y="141.5" width="100" height="45" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="rect_99">
+    <rect x="1500" y="70" width="100" height="38" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_100">
+    <rect x="1500" y="120" width="100" height="38" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_101">
+    <rect x="1500" y="170" width="100" height="38" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_102">
+    <rect x="1500" y="220" width="100" height="38" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="text_103">
+  </g>
+  <g id="rect_104">
+    <rect x="1250" y="320" width="100" height="38" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="rect_105">
+    <rect x="1250" y="370" width="100" height="38" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="rect_106">
+    <rect x="1250" y="420" width="100" height="38" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="rect_107">
+    <rect x="1500" y="366.5" width="100" height="45" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="text_108">
+  </g>
+  <g id="text_109">
+  </g>
+  <g id="rect_110">
+    <rect x="1360" y="545" width="90" height="38" rx="20" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1.5" />
+  </g>
+  <g id="diamond_111">
+    <polygon points="1405,600.75 1465,638.25 1405,675.75 1345,638.25" fill="#fff9c4" stroke="#f57f17" stroke-width="1.5" />
+  </g>
+  <g id="rect_112">
+    <rect x="1520" y="619.25" width="90" height="38" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_113">
+    <rect x="1520" y="710" width="90" height="38" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="rect_114">
+    <rect x="1360" y="710" width="90" height="38" rx="20" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1.5" />
+  </g>
+  <g id="text_115">
+  </g>
+  <g id="cylinder_116">
+    <path d="M 1240 863.13 L 1240 923.13 A 35 20 0 0 0 1310 923.13 L 1310 863.13 A 35 20 0 0 1 1240 863.13" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+    <path d="M 1240 863.13 L 1240 923.13 A 35 20 0 0 0 1310 923.13 L 1310 863.13 A 35 20 0 0 1 1240 863.13" fill="url(#cylGrad_cylinder_116)" stroke="none" />
+    <ellipse cx="1275" cy="863.13" rx="35" ry="20" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="cylinder_117">
+    <path d="M 1350 870.63 L 1350 915.63 A 27.5 15 0 0 0 1405 915.63 L 1405 870.63 A 27.5 15 0 0 1 1350 870.63" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+    <path d="M 1350 870.63 L 1350 915.63 A 27.5 15 0 0 0 1405 915.63 L 1405 870.63 A 27.5 15 0 0 1 1350 870.63" fill="url(#cylGrad_cylinder_117)" stroke="none" />
+    <ellipse cx="1377.5" cy="870.63" rx="27.5" ry="15" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="cuboid_118">
+    <polygon points="1530,868.13 1542,856.13 1542,906.13 1530,918.13" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="1530,868.13 1542,856.13 1542,906.13 1530,918.13" fill="rgba(0,0,0,0.15)" stroke="none" />
+    <polygon points="1450,868.13 1462,856.13 1542,856.13 1530,868.13" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+    <polygon points="1450,868.13 1462,856.13 1542,856.13 1530,868.13" fill="rgba(0,0,0,0.08)" stroke="none" />
+    <rect x="1450" y="868.13" width="80" height="50" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="sphere_119">
+    <circle cx="1600" cy="893.13" r="25" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+    <circle cx="1600" cy="893.13" r="25" fill="url(#sphereGrad_sphere_119)" stroke="none" />
+  </g>
+  <g id="text_120">
+  </g>
+  <g id="stack_121">
+    <rect x="352" y="723" width="80" height="50" rx="4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="346" y="729" width="80" height="50" rx="4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+    <rect x="340" y="735" width="80" height="50" rx="4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="stack_122">
+    <rect x="498" y="717" width="70" height="45" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="492" y="723" width="70" height="45" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="486" y="729" width="70" height="45" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+    <rect x="480" y="735" width="70" height="45" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="stack_123">
+    <rect x="628" y="743" width="75" height="50" rx="4" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+    <rect x="620" y="735" width="75" height="50" rx="4" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="text_124">
+  </g>
+  <g id="trapezoid_125">
+    <polygon points="43.5,740 106.5,740 120,795 30,795" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_126">
+    <polygon points="171.88,740 213.13,740 230,795 155,795" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="trapezoid_127">
+    <polygon points="278,740 317,740 330,795 265,795" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="rect_128">
+    <rect x="365" y="748" width="55" height="40" rx="4" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="text_129">
+  </g>
+  <g id="rect_130">
+    <rect x="310" y="963.25" width="120" height="45" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g id="rect_131">
+    <rect x="510" y="880.75" width="90" height="35" rx="4" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_132">
+    <rect x="510" y="940" width="90" height="35" rx="4" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+  </g>
+  <g id="rect_133">
+    <rect x="510" y="998.25" width="90" height="35" rx="4" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+  </g>
+  <g id="rect_134">
+    <rect x="510" y="1040.75" width="90" height="35" rx="4" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5" />
+  </g>
+  <g id="rect_135">
+    <rect x="658.5" y="875" width="60" height="28" rx="3" fill="#f1f8e9" stroke="#558b2f" stroke-width="1.5" />
+  </g>
+  <g id="rect_136">
+    <rect x="658.5" y="910" width="60" height="28" rx="3" fill="#f1f8e9" stroke="#558b2f" stroke-width="1.5" />
+  </g>
+  <g id="rect_137">
+    <rect x="661" y="971.75" width="55" height="28" rx="3" fill="#fbe9e7" stroke="#bf360c" stroke-width="1.5" />
+  </g>
+  <g id="rect_138">
+    <rect x="661" y="1010" width="55" height="28" rx="3" fill="#fbe9e7" stroke="#bf360c" stroke-width="1.5" />
+  </g>
+  <g id="rect_139">
+    <rect x="661" y="1044.25" width="55" height="28" rx="3" fill="#fbe9e7" stroke="#bf360c" stroke-width="1.5" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="58" x2="704.4" y2="58" stroke="#555" stroke-width="1.5" />
+    <polygon points="710,58 703.25,62.29 703.25,53.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="88" x2="704.4" y2="88" stroke="#555" stroke-width="1.5" />
+    <polygon points="710,88 703.25,92.29 703.25,83.71" fill="white" stroke="#555" stroke-width="1.5" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="118" x2="704.4" y2="118" stroke="#555" stroke-width="1.5" />
+    <polygon points="710,118 701.07,121.53 705.2,118 701.07,114.47" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="148" x2="708.8" y2="148" stroke="#555" stroke-width="1.5" />
+    <polyline points="703.84,153.1 710,148 703.84,142.9" fill="none" stroke="#555" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="178" x2="706" y2="178" stroke="#555" stroke-width="1.5" />
+    <circle cx="706.4" cy="178" r="3.6" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="208" x2="706" y2="208" stroke="#555" stroke-width="1.5" />
+    <circle cx="706.4" cy="208" r="3.6" fill="white" stroke="#555" stroke-width="1.5" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="238" x2="702" y2="238" stroke="#555" stroke-width="1.5" />
+    <polygon points="710,238 706,242 702,238 706,234" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="268" x2="702" y2="268" stroke="#555" stroke-width="1.5" />
+    <polygon points="710,268 706,272 702,268 706,264" fill="white" stroke="#555" stroke-width="1.5" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="298" x2="709" y2="298" stroke="#555" stroke-width="1.5" />
+    <line x1="710" y1="302.8" x2="710" y2="293.2" stroke="#555" stroke-width="2" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="328" x2="708" y2="328" stroke="#555" stroke-width="1.5" />
+    <circle cx="710" cy="328" r="1.6" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="358" x2="710" y2="358" stroke="#555" stroke-width="1.5" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="433" x2="704.4" y2="433" stroke="#1565c0" stroke-width="1.5" />
+    <polygon points="710,433 703.25,437.29 703.25,428.71" fill="#1565c0" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="465" x2="704.4" y2="465" stroke="#c62828" stroke-width="1.5" stroke-dasharray="6 3" />
+    <polygon points="710,465 703.25,469.29 703.25,460.71" fill="#c62828" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="596" y1="497" x2="704.4" y2="497" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="2 2" />
+    <polygon points="710,497 703.25,501.29 703.25,492.71" fill="#2e7d32" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="601.6" y1="529" x2="704.4" y2="529" stroke="#e67700" stroke-width="1.5" />
+    <polygon points="710,529 703.25,533.29 703.25,524.71" fill="#e67700" />
+    <polygon points="596,529 602.75,524.71 602.75,533.29" fill="#e67700" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="635" y1="604" x2="714.4" y2="604" stroke="#1565c0" stroke-width="1.5" />
+    <polygon points="720,604 713.25,608.29 713.25,599.71" fill="#1565c0" />
+  </g>
+  <g class="flowing-arrow">
+    <path d="M 635 644 Q 677.5 669 715.17 646.84" fill="none" stroke="#c62828" stroke-width="1.5" />
+    <polygon points="720,644 716.35,651.12 712,643.73" fill="#c62828" />
+  </g>
+  <g class="flowing-arrow">
+    <polyline points="635,684 677.5,684 677.5,724 714.4,724" fill="none" stroke="#2e7d32" stroke-width="1.5" />
+    <polygon points="720,724 713.25,728.29 713.25,719.71" fill="#2e7d32" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="980" y1="100" x2="980" y2="112.4" stroke="#333333" stroke-width="1.5" />
+    <polygon points="980,118 975.71,111.25 984.29,111.25" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="980" y1="158" x2="980" y2="170.4" stroke="#333333" stroke-width="1.5" />
+    <polygon points="980,176 975.71,169.25 984.29,169.25" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="980" y1="216" x2="980" y2="228.4" stroke="#333333" stroke-width="1.5" />
+    <polygon points="980,234 975.71,227.25 984.29,227.25" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="980" y1="274" x2="980" y2="286.4" stroke="#333333" stroke-width="1.5" />
+    <polygon points="980,292 975.71,285.25 984.29,285.25" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="980" y1="332" x2="980" y2="344.4" stroke="#333333" stroke-width="1.5" />
+    <polygon points="980,350 975.71,343.25 984.29,343.25" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="940" y1="478" x2="950.4" y2="478" stroke="#333333" stroke-width="1.5" />
+    <polygon points="956,478 949.25,482.29 949.25,473.71" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1006" y1="478" x2="1016.4" y2="478" stroke="#333333" stroke-width="1.5" />
+    <polygon points="1022,478 1015.25,482.29 1015.25,473.71" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1082" y1="478" x2="1092.4" y2="478" stroke="#333333" stroke-width="1.5" />
+    <polygon points="1098,478 1091.25,482.29 1091.25,473.71" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1350" y1="164" x2="1494.99" y2="91.5" stroke="#1565c0" stroke-width="1.5" />
+    <polygon points="1500,89 1495.88,95.85 1492.04,88.19" fill="#1565c0" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1350" y1="164" x2="1494.48" y2="139.92" stroke="#1565c0" stroke-width="1.5" />
+    <polygon points="1500,139 1494.04,144.34 1492.63,135.88" fill="#1565c0" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1350" y1="164" x2="1494.48" y2="188.08" stroke="#1565c0" stroke-width="1.5" />
+    <polygon points="1500,189 1492.63,192.12 1494.04,183.66" fill="#1565c0" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1350" y1="164" x2="1494.99" y2="236.5" stroke="#1565c0" stroke-width="1.5" />
+    <polygon points="1500,239 1492.04,239.81 1495.88,232.15" fill="#1565c0" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1350" y1="339" x2="1494.69" y2="387.23" stroke="#c62828" stroke-width="1.5" />
+    <polygon points="1500,389 1492.24,390.93 1494.95,382.8" fill="#c62828" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1350" y1="389" x2="1494.4" y2="389" stroke="#c62828" stroke-width="1.5" />
+    <polygon points="1500,389 1493.25,393.29 1493.25,384.71" fill="#c62828" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1350" y1="439" x2="1494.69" y2="390.77" stroke="#c62828" stroke-width="1.5" />
+    <polygon points="1500,389 1494.95,395.2 1492.24,387.07" fill="#c62828" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1405" y1="583" x2="1405" y2="595.15" stroke="#333333" stroke-width="1.5" />
+    <polygon points="1405,600.75 1400.71,594 1409.29,594" fill="#333333" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1465" y1="638.25" x2="1514.4" y2="638.25" stroke="#2e7d32" stroke-width="1.5" />
+    <polygon points="1520,638.25 1513.25,642.54 1513.25,633.96" fill="#2e7d32" />
+  </g>
+  <g class="flowing-arrow">
+    <polyline points="1405,675.75 1462.5,675.75 1462.5,729 1514.4,729" fill="none" stroke="#c62828" stroke-width="1.5" />
+    <polygon points="1520,729 1513.25,733.29 1513.25,724.71" fill="#c62828" />
+  </g>
+  <g class="flowing-arrow">
+    <polyline points="1520,638.25 1485,638.25 1485,729 1455.6,729" fill="none" stroke="#666" stroke-width="1.5" />
+    <polygon points="1450,729 1456.75,724.71 1456.75,733.29" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <polyline points="1520,729 1485,729 1485,729 1455.6,729" fill="none" stroke="#666" stroke-width="1.5" />
+    <polygon points="1450,729 1456.75,724.71 1456.75,733.29" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1310" y1="893.13" x2="1344.4" y2="893.13" stroke="#666" stroke-width="1.5" />
+    <polygon points="1350,893.13 1343.25,897.42 1343.25,888.84" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1405" y1="893.13" x2="1444.4" y2="893.13" stroke="#666" stroke-width="1.5" />
+    <polygon points="1450,893.13 1443.25,897.42 1443.25,888.84" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="1530" y1="893.13" x2="1569.4" y2="893.13" stroke="#666" stroke-width="1.5" />
+    <polygon points="1575,893.13 1568.25,897.42 1568.25,888.84" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="120" y1="767.5" x2="149.4" y2="767.5" stroke="#666" stroke-width="1.5" />
+    <polygon points="155,767.5 148.25,771.79 148.25,763.21" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="230" y1="767.5" x2="259.4" y2="767.5" stroke="#666" stroke-width="1.5" />
+    <polygon points="265,767.5 258.25,771.79 258.25,763.21" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="330" y1="767.5" x2="359.4" y2="767.92" stroke="#666" stroke-width="1.5" />
+    <polygon points="365,768 358.18,772.19 358.31,763.62" fill="#666" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="430" y1="985.75" x2="509.19" y2="899.14" stroke="#1565c0" stroke-width="1.5" />
+    <polyline points="509.6,906.24 510,898.25 502.08,899.36" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="430" y1="985.75" x2="508.87" y2="957.9" stroke="#1565c0" stroke-width="1.5" />
+    <polyline points="505.89,964.36 510,957.5 502.49,954.74" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="430" y1="985.75" x2="508.88" y2="1015.33" stroke="#1565c0" stroke-width="1.5" />
+    <polyline points="502.44,1018.36 510,1015.75 506.02,1008.81" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="430" y1="985.75" x2="509.11" y2="1057.44" stroke="#1565c0" stroke-width="1.5" />
+    <polyline points="502.01,1057.89 510,1058.25 508.86,1050.33" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="600" y1="898.25" x2="657.31" y2="889.19" stroke="#2e7d32" stroke-width="1.5" />
+    <polyline points="653.21,895 658.5,889 651.62,884.93" fill="none" stroke="#2e7d32" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="600" y1="898.25" x2="657.4" y2="923.52" stroke="#2e7d32" stroke-width="1.5" />
+    <polyline points="650.8,926.18 658.5,924 654.91,916.85" fill="none" stroke="#2e7d32" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="600" y1="1015.75" x2="659.92" y2="986.28" stroke="#c62828" stroke-width="1.5" />
+    <polyline points="657.72,993.05 661,985.75 653.22,983.89" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="600" y1="1015.75" x2="659.81" y2="1023.84" stroke="#c62828" stroke-width="1.5" />
+    <polyline points="654.21,1028.23 661,1024 655.57,1018.12" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="600" y1="1015.75" x2="660.02" y2="1057.56" stroke="#c62828" stroke-width="1.5" />
+    <polyline points="653.03,1058.91 661,1058.25 658.86,1050.54" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <text x="916" y="271" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">Decode Stage</text>
+  <text x="914" y="95" text-anchor="start" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Transformer Block</text>
+  <text x="120" y="28" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Shapes</text>
+  <text x="80" y="80" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="normal" fill="#1565c0">Rect</text>
+  <text x="200" y="80" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="normal" fill="#c62828">Rounded</text>
+  <text x="80" y="145" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="normal" fill="#f57f17">Shadow</text>
+  <text x="200" y="145" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="normal" fill="#333333">Dashed</text>
+  <text x="80" y="225" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#2e7d32">Circle</text>
+  <text x="90" y="335" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#7b1fa2">Diamond</text>
+  <text x="225" y="335" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#00838f">Trapezoid</text>
+  <text x="120" y="400" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">3D Shapes</text>
+  <text x="75" y="495" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">Cylinder</text>
+  <text x="200" y="495" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Cuboid</text>
+  <text x="95" y="610" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">Sphere</text>
+  <text x="420" y="28" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Markdown</text>
+  <text x="420" y="73" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#333333"><tspan font-weight="bold">Bold</tspan> Text</text>
+  <text x="420" y="118" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#333333"><tspan font-style="italic">Italic</tspan> Style</text>
+  <text x="420" y="163" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#333333"><tspan font-family="'JetBrains Mono', 'Fira Code', Menlo, monospace">code</tspan> Inline</text>
+  <text x="420" y="208" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#333333"><tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">E=mc^2</tspan> Math</text>
+  <text x="420" y="253" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#333333"><tspan font-weight="bold">Bold</tspan> + <tspan font-style="italic">italic</tspan> + <tspan font-family="'JetBrains Mono', 'Fira Code', Menlo, monospace">mix</tspan></text>
+  <text x="690" y="28" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Arrow Heads</text>
+  <text x="750" y="58" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Triangle</text>
+  <text x="750" y="88" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Open Triangle</text>
+  <text x="750" y="118" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Stealth</text>
+  <text x="750" y="148" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Vee</text>
+  <text x="750" y="178" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Circle</text>
+  <text x="750" y="208" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Open Circle</text>
+  <text x="750" y="238" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Diamond</text>
+  <text x="750" y="268" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Open Diamond</text>
+  <text x="750" y="298" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Bar</text>
+  <text x="750" y="328" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Dot</text>
+  <text x="750" y="358" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">None</text>
+  <text x="690" y="400" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Arrow Styles &amp; Paths</text>
+  <text x="750" y="433" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Solid</text>
+  <text x="750" y="465" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Dashed</text>
+  <text x="750" y="497" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Dotted</text>
+  <text x="750" y="529" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Bidirectional</text>
+  <text x="610" y="568" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#555">Paths:</text>
+  <text x="612.5" y="604" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">A</text>
+  <text x="742.5" y="604" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">B</text>
+  <text x="800" y="604" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Straight</text>
+  <text x="612.5" y="644" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#c62828">A</text>
+  <text x="742.5" y="644" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#c62828">B</text>
+  <text x="800" y="644" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Curve</text>
+  <text x="612.5" y="684" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">A</text>
+  <text x="742.5" y="724" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">B</text>
+  <text x="800" y="700" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#666">Polyline</text>
+  <text x="980" y="28" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">col() + group()</text>
+  <text x="980" y="80" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#333333">Input</text>
+  <text x="980" y="138" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#1565c0">Encoder</text>
+  <text x="980" y="196" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#2e7d32">Attention</text>
+  <text x="980" y="254" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#2e7d32">FFN</text>
+  <text x="980" y="312" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="normal" fill="#e65100">Decoder</text>
+  <text x="980" y="370" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#333333">Output</text>
+  <text x="980" y="430" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">row()</text>
+  <text x="905" y="478" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#3f51b5">Conv</text>
+  <text x="981" y="478" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#3f51b5">BN</text>
+  <text x="1052" y="478" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#3f51b5">ReLU</text>
+  <text x="1123" y="478" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#3f51b5">Pool</text>
+  <text x="980" y="530" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">grid()</text>
+  <text x="907.5" y="578" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">A</text>
+  <text x="976.5" y="578" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">B</text>
+  <text x="1045.5" y="578" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">C</text>
+  <text x="907.5" y="628" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">D</text>
+  <text x="976.5" y="628" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">E</text>
+  <text x="1045.5" y="628" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">F</text>
+  <text x="1430" y="28" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">arrows() + Auto Fan Align</text>
+  <text x="1300" y="164" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#1565c0">Source</text>
+  <text x="1550" y="89" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Target 1</text>
+  <text x="1550" y="139" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Target 2</text>
+  <text x="1550" y="189" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Target 3</text>
+  <text x="1550" y="239" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Target 4</text>
+  <text x="1410" y="280" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#999">1→4 Fan-out (auto Y center)</text>
+  <text x="1300" y="339" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#c62828">Input A</text>
+  <text x="1300" y="389" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#c62828">Input B</text>
+  <text x="1300" y="439" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#c62828">Input C</text>
+  <text x="1550" y="389" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">Merge</text>
+  <text x="1410" y="475" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#999">3→1 Fan-in (auto Y center)</text>
+  <text x="1430" y="510" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Diamond Decision Flow</text>
+  <text x="1405" y="564" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#3f51b5">Start</text>
+  <text x="1405" y="638.25" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#f57f17">x &gt; 0 ?</text>
+  <text x="1565" y="638.25" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#2e7d32">Positive</text>
+  <text x="1565" y="729" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#c62828">Negative</text>
+  <text x="1405" y="729" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#3f51b5">End</text>
+  <text x="1430" y="800" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">3D CNN Pipeline</text>
+  <text x="1275" y="893.13" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">Conv</text>
+  <text x="1377.5" y="893.13" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Pool</text>
+  <text x="1490" y="893.13" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">FC</text>
+  <text x="1600" y="893.13" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#c62828">Out</text>
+  <text x="480" y="700" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Stack Layers</text>
+  <text x="380" y="760" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#1565c0">Conv ×3</text>
+  <text x="515" y="757.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#2e7d32">FC ×4</text>
+  <text x="657.5" y="760" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">Pool ×2</text>
+  <text x="150" y="700" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Trapezoid Layers</text>
+  <text x="75" y="767.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#1565c0">Conv</text>
+  <text x="192.5" y="767.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#2e7d32">Pool</text>
+  <text x="297.5" y="767.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#1565c0">Conv</text>
+  <text x="392.5" y="768" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">FC</text>
+  <text x="480" y="850" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="bold" fill="#333">Mind Map (Auto Align)</text>
+  <text x="370" y="985.75" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="normal" fill="#1565c0"><tspan font-weight="bold">Flowing</tspan></text>
+  <text x="555" y="898.25" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#2e7d32">Shapes</text>
+  <text x="555" y="957.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#e65100">Arrows</text>
+  <text x="555" y="1015.75" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#c62828">Layout</text>
+  <text x="555" y="1058.25" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="normal" fill="#7b1fa2">Export</text>
+  <text x="688.5" y="889" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#558b2f">2D</text>
+  <text x="688.5" y="924" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#558b2f">3D</text>
+  <text x="688.5" y="985.75" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#bf360c">row</text>
+  <text x="688.5" y="1024" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#bf360c">col</text>
+  <text x="688.5" y="1058.25" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#bf360c">grid</text>
+  <text x="1492.5" y="630.25" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" fill="#2e7d32">Yes</text>
+  <text x="1462.5" y="694.38" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" fill="#c62828">No</text>
+</svg>

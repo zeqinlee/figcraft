@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <g id="rect_1">
+    <rect x="120" y="50" width="180" height="200" rx="8" fill="none" stroke="#000" stroke-width="1.5" />
+    <text x="210" y="150" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#000">Embedding</text>
+  </g>
+  <g id="rect_2">
+    <rect x="350" y="50" width="200" height="200" rx="8" fill="none" stroke="#000" stroke-width="1.5" />
+    <text x="450" y="72" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#000">Transformer</text>
+    <g id="rect_3">
+      <rect x="394" y="115" width="112" height="39.2" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+      <text x="450" y="134.6" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">Multi-Head Attention</text>
+    </g>
+    <g id="rect_4">
+      <rect x="394" y="164" width="112" height="39.2" rx="4" fill="none" stroke="#000" stroke-width="1.5" />
+      <text x="450" y="183.6" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#000">Feed Forward</text>
+    </g>
+  </g>
+  <g id="rect_5">
+    <rect x="600" y="50" width="180" height="200" rx="8" fill="none" stroke="#000" stroke-width="1.5" />
+    <text x="690" y="150" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#000">Output Layer</text>
+  </g>
+  <g class="flowing-arrow">
+    <line x1="300" y1="150" x2="344.4" y2="150" stroke="#000" stroke-width="1.5" />
+    <polygon points="350,150 343.25,154.29 343.25,145.71" fill="#000" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="550" y1="150" x2="594.4" y2="150" stroke="#000" stroke-width="1.5" />
+    <polygon points="600,150 593.25,154.29 593.25,145.71" fill="#000" />
+  </g>
+</svg>

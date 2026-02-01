@@ -1,0 +1,57 @@
+{
+  "name": "figcraft",
+  "version": "0.1.0",
+  "description": "Code-driven SVG diagram library for TypeScript / Node.js. 10 shapes, 11 arrow heads, smart layouts, multi-format export, MCP integration.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "figcraft": "dist/cli.js",
+    "figcraft-mcp": "dist/mcp.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README-zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "svg",
+    "diagram",
+    "flowchart",
+    "architecture",
+    "graph",
+    "arrow",
+    "layout",
+    "mcp",
+    "typescript",
+    "node"
+  ],
+  "homepage": "https://figcraft.xflowing.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeqinlee/figcraft"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "example": "tsx examples/basic.ts",
+    "agent": "python Agent/main.py"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.17.2",
+    "sharp": "^0.34.5",
+    "svg-to-pdfkit": "^0.1.8",
+    "zod": "^4.3.6"
+  }
+}

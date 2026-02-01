@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500">
+  <defs>
+    <filter id="shadow_rect_2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.15)" />
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#fff" />
+  <g id="rect_1">
+    <rect x="0" y="232" width="130" height="36" rx="4" fill="#e8eaf6" stroke="#283593" stroke-width="1.5" />
+    <text x="65" y="250" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#283593">Input Embedding</text>
+  </g>
+  <g id="rect_2">
+    <rect x="170" y="120" width="160" height="260" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" filter="url(#shadow_rect_2)" />
+    <text x="250" y="142" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1565c0">Encoder</text>
+    <g id="rect_3">
+      <rect x="200.5" y="176.5" width="99" height="63" rx="6" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+      <text x="250" y="208" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">Multi-Head
+Attention</text>
+    </g>
+    <g id="rect_4">
+      <rect x="200.5" y="245.8" width="99" height="25.2" rx="4" fill="#90caf9" stroke="#1565c0" stroke-width="1.5" />
+      <text x="250" y="258.40000000000003" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#1565c0">Add &amp; Norm</text>
+    </g>
+    <g id="rect_5">
+      <rect x="200.5" y="279.4" width="99" height="42" rx="6" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+      <text x="250" y="300.4" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">Feed Forward</text>
+    </g>
+    <g id="text_6">
+      <text x="291.8" y="344.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#1565c0">x N</text>
+    </g>
+  </g>
+  <g id="rect_7">
+    <rect x="370" y="120" width="160" height="260" rx="10" fill="none" stroke="#e65100" stroke-width="1.5" stroke-dasharray="6 3" />
+    <text x="450" y="142" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#e65100">Decoder</text>
+    <g id="rect_8">
+      <rect x="400.5" y="161.8" width="99" height="46.2" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+      <text x="450" y="184.9" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">Masked
+Attention</text>
+    </g>
+    <g id="rect_9">
+      <rect x="400.5" y="216.4" width="99" height="46.2" rx="6" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+      <text x="450" y="239.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">Cross
+Attention</text>
+    </g>
+    <g id="rect_10">
+      <rect x="400.5" y="275.2" width="99" height="42" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+      <text x="450" y="296.2" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">Feed Forward</text>
+    </g>
+    <g id="text_11">
+      <text x="491.8" y="344.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#e65100">x N</text>
+    </g>
+  </g>
+  <g id="rect_12">
+    <rect x="570" y="232" width="130" height="36" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+    <text x="635" y="250" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#2e7d32">Linear + Softmax</text>
+  </g>
+  <g class="flowing-arrow">
+    <line x1="130" y1="250" x2="164.4" y2="250" stroke="#555" stroke-width="1.5" />
+    <polygon points="170,250 163.25,254.29 163.25,245.71" fill="#555" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="330" y1="250" x2="364.4" y2="250" stroke="#555" stroke-width="1.5" />
+    <polygon points="370,250 363.25,254.29 363.25,245.71" fill="#555" />
+    <text x="350" y="242" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" fill="#555">K, V</text>
+  </g>
+  <g class="flowing-arrow">
+    <line x1="530" y1="250" x2="564.4" y2="250" stroke="#555" stroke-width="1.5" />
+    <polygon points="570,250 563.25,254.29 563.25,245.71" fill="#555" />
+  </g>
+</svg>

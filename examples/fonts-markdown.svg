@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect x="0" y="0" width="800" height="450" fill="#fff" />
+  <g id="text_1">
+    <text x="400" y="30" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="20" font-weight="normal" fill="#000"><tspan font-weight="bold">Attention</tspan> <tspan font-style="italic">Is All You Need</tspan></text>
+  </g>
+  <g id="rect_2">
+    <rect x="70" y="85" width="300" height="280" rx="10" fill="#fafafa" stroke="#000" stroke-width="1.5" />
+    <g id="text_3">
+      <text x="220" y="124.2" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="13" font-weight="normal" fill="#000"><tspan font-weight="bold">Scaled Dot-Product Attention</tspan></text>
+    </g>
+    <g id="text_4">
+      <text x="220" y="165" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="15" font-weight="normal" fill="#222"><tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">Attention(Q, K, V)</tspan></text>
+    </g>
+    <g id="text_5">
+      <text x="220" y="196.2" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="14" font-weight="normal" fill="#222"><tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">= softmax(QK^T / sqrt(d_k)) V</tspan></text>
+    </g>
+    <g id="rect_6">
+      <rect x="116" y="225" width="208" height="0.5" fill="#ddd" stroke="none" />
+    </g>
+    <g id="text_7">
+      <text x="220" y="249" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="12" font-weight="normal" fill="#555"><tspan font-weight="bold">Q</tspan> = query matrix</text>
+    </g>
+    <g id="text_8">
+      <text x="220" y="277.79999999999995" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="12" font-weight="normal" fill="#555"><tspan font-weight="bold">K</tspan> = key matrix, <tspan font-weight="bold">V</tspan> = value matrix</text>
+    </g>
+    <g id="text_9">
+      <text x="220" y="316.2" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="11" font-weight="normal" fill="#888"><tspan font-family="'JetBrains Mono', 'Fira Code', Menlo, monospace">dim(Q) = dim(K) = d_k</tspan></text>
+    </g>
+  </g>
+  <g id="rect_10">
+    <rect x="430" y="85" width="300" height="280" rx="10" fill="#fafafa" stroke="#000" stroke-width="1.5" />
+    <g id="text_11">
+      <text x="580" y="124.2" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="13" font-weight="normal" fill="#000"><tspan font-weight="bold">Model Configuration</tspan></text>
+    </g>
+    <g id="text_12">
+      <text x="580" y="165" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="13" font-weight="normal" fill="#333">Layers   <tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">N = 6</tspan></text>
+    </g>
+    <g id="text_13">
+      <text x="580" y="196.2" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="13" font-weight="normal" fill="#333">Hidden   <tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">d_model = 512</tspan></text>
+    </g>
+    <g id="text_14">
+      <text x="580" y="227.4" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="13" font-weight="normal" fill="#333">Heads    <tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">h = 8</tspan></text>
+    </g>
+    <g id="text_15">
+      <text x="580" y="258.6" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="13" font-weight="normal" fill="#333">FFN dim  <tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">d_ff = 2048</tspan></text>
+    </g>
+    <g id="rect_16">
+      <rect x="476" y="287.4" width="208" height="0.5" fill="#ddd" stroke="none" />
+    </g>
+    <g id="text_17">
+      <text x="580" y="311.4" text-anchor="middle" dominant-baseline="middle" font-family="PingFang SC" font-size="12" font-weight="normal" fill="#555">Loss: <tspan font-style="italic" font-family="'Times New Roman', 'Latin Modern Math', serif">L = -log P(y | x)</tspan></text>
+    </g>
+  </g>
+  <g class="flowing-arrow">
+    <line x1="370" y1="225" x2="424.4" y2="225" stroke="#000" stroke-width="1.5" />
+    <polygon points="430,225 421.07,228.53 425.2,225 421.07,221.47" fill="#000" />
+  </g>
+</svg>

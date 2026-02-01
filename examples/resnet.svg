@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <rect width="100%" height="100%" fill="#fff" />
+  <g id="rect_1">
+    <rect x="40" y="110" width="80" height="60" rx="6" fill="#e0e0e0" stroke="#424242" stroke-width="1.5" />
+    <text x="80" y="140" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#424242">Input
+224x224</text>
+  </g>
+  <g id="rect_2">
+    <rect x="140" y="110" width="90" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" />
+    <text x="185" y="140" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">Conv 7x7
+stride 2</text>
+  </g>
+  <g id="rect_3">
+    <rect x="250" y="110" width="80" height="60" rx="6" fill="#e8eaf6" stroke="#283593" stroke-width="1.5" />
+    <text x="290" y="140" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#283593">MaxPool
+3x3</text>
+  </g>
+  <g id="rect_4">
+    <rect x="350" y="80" width="100" height="120" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5" />
+    <text x="400" y="102" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#2e7d32">ResBlock</text>
+    <g id="rect_5">
+      <rect x="373" y="116" width="54" height="22.4" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+      <text x="400" y="127.2" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#2e7d32">Conv 3x3</text>
+    </g>
+    <g id="rect_6">
+      <rect x="373" y="144" width="54" height="22.4" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+      <text x="400" y="155.2" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#2e7d32">Conv 3x3</text>
+    </g>
+  </g>
+  <g id="rect_7">
+    <rect x="470" y="80" width="100" height="120" rx="8" fill="#fce4ec" stroke="#c62828" stroke-width="1.5" />
+    <text x="520" y="102" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#c62828">ResBlock</text>
+    <g id="rect_8">
+      <rect x="493" y="116" width="54" height="22.4" rx="4" fill="#ffcdd2" stroke="#c62828" stroke-width="1.5" />
+      <text x="520" y="127.2" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#c62828">Conv 3x3</text>
+    </g>
+    <g id="rect_9">
+      <rect x="493" y="144" width="54" height="22.4" rx="4" fill="#ffcdd2" stroke="#c62828" stroke-width="1.5" />
+      <text x="520" y="155.2" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#c62828">Conv 3x3</text>
+    </g>
+  </g>
+  <g id="rect_10">
+    <rect x="590" y="110" width="80" height="60" rx="6" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5" />
+    <text x="630" y="140" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#6a1b9a">Global
+AvgPool</text>
+  </g>
+  <g id="rect_11">
+    <rect x="690" y="110" width="70" height="60" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" />
+    <text x="725" y="140" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">FC
+1000</text>
+  </g>
+  <g class="flowing-arrow">
+    <line x1="120" y1="140" x2="138.8" y2="140" stroke="#555" stroke-width="1.5" />
+    <polyline points="133.84,145.1 140,140 133.84,134.9" fill="none" stroke="#555" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="230" y1="140" x2="248.8" y2="140" stroke="#555" stroke-width="1.5" />
+    <polyline points="243.84,145.1 250,140 243.84,134.9" fill="none" stroke="#555" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="330" y1="140" x2="348.8" y2="140" stroke="#555" stroke-width="1.5" />
+    <polyline points="343.84,145.1 350,140 343.84,134.9" fill="none" stroke="#555" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="450" y1="140" x2="468.8" y2="140" stroke="#555" stroke-width="1.5" />
+    <polyline points="463.84,145.1 470,140 463.84,134.9" fill="none" stroke="#555" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="570" y1="140" x2="588.8" y2="140" stroke="#555" stroke-width="1.5" />
+    <polyline points="583.84,145.1 590,140 583.84,134.9" fill="none" stroke="#555" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="670" y1="140" x2="688.8" y2="140" stroke="#555" stroke-width="1.5" />
+    <polyline points="683.84,145.1 690,140 683.84,134.9" fill="none" stroke="#555" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <path d="M 370 80 Q 400 110 426.04 83.96" fill="none" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="6 3" />
+    <polygon points="430,80 426.19,88.81 426.61,83.39 421.19,83.81" fill="#2e7d32" />
+    <text x="400" y="87" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" fill="#2e7d32">skip</text>
+  </g>
+  <g class="flowing-arrow">
+    <path d="M 490 80 Q 520 110 546.04 83.96" fill="none" stroke="#c62828" stroke-width="1.5" stroke-dasharray="6 3" />
+    <polygon points="550,80 546.19,88.81 546.61,83.39 541.19,83.81" fill="#c62828" />
+    <text x="520" y="87" text-anchor="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" fill="#c62828">skip</text>
+  </g>
+</svg>

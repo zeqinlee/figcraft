@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+  <defs>
+    <filter id="shadow_rect_7" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.15)" />
+    </filter>
+    <filter id="shadow_rect_12" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.15)" />
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="900" height="340" fill="#fff" />
+  <g id="rect_1">
+    <rect x="145" y="96.25" width="110" height="200" rx="8" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="1.5" />
+    <g id="rect_2">
+      <rect x="168.5" y="124.25" width="63" height="25.6" rx="4" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1.5" />
+    </g>
+    <g id="rect_3">
+      <rect x="168.5" y="154.65" width="63" height="25.6" rx="4" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1.5" />
+    </g>
+    <g id="rect_4">
+      <rect x="168.5" y="185.05" width="63" height="25.6" rx="4" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1.5" />
+    </g>
+    <g id="rect_5">
+      <rect x="168.5" y="215.45" width="63" height="25.6" rx="4" fill="#ce93d8" stroke="#4a148c" stroke-width="1.5" />
+    </g>
+    <g id="rect_6">
+      <rect x="168.5" y="245.85" width="63" height="25.6" rx="4" fill="#ab47bc" stroke="#fff" stroke-width="1.5" />
+    </g>
+  </g>
+  <g id="rect_7">
+    <rect x="295" y="130" width="340" height="80" rx="8" fill="#fff3e0" stroke="#e65100" stroke-width="1.5" filter="url(#shadow_rect_7)" />
+    <g id="rect_8">
+      <rect x="319.08" y="156.8" width="82.08" height="28.6" rx="4" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+    </g>
+    <g id="rect_9">
+      <rect x="410.28" y="156.8" width="45.6" height="28.6" rx="4" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+    </g>
+    <g id="rect_10">
+      <rect x="465" y="156.8" width="82.08" height="28.6" rx="4" fill="#ffe0b2" stroke="#e65100" stroke-width="1.5" />
+    </g>
+    <g id="rect_11">
+      <rect x="556.2" y="156.8" width="54.72" height="28.6" rx="4" fill="#ffcc80" stroke="#bf360c" stroke-width="1.5" />
+    </g>
+  </g>
+  <g id="rect_12">
+    <rect x="280" y="182.5" width="340" height="80" rx="8" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5" filter="url(#shadow_rect_12)" />
+    <g id="rect_13">
+      <rect x="304.08" y="209.3" width="82.08" height="28.6" rx="4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+    </g>
+    <g id="rect_14">
+      <rect x="395.28" y="209.3" width="45.6" height="28.6" rx="4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+    </g>
+    <g id="rect_15">
+      <rect x="450" y="209.3" width="82.08" height="28.6" rx="4" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+    </g>
+    <g id="rect_16">
+      <rect x="541.2" y="209.3" width="54.72" height="28.6" rx="4" fill="#90caf9" stroke="#0d47a1" stroke-width="1.5" />
+    </g>
+  </g>
+  <g id="rect_17">
+    <rect x="675" y="145" width="80" height="50" rx="25" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5" />
+  </g>
+  <g id="rect_18">
+    <rect x="410" y="197.5" width="80" height="50" rx="25" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="401.16" y1="171.1" x2="409.08" y2="171.1" stroke="#e65100" stroke-width="1.5" />
+    <polyline points="404.12,176.2 410.28,171.1 404.12,166" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="455.88" y1="171.1" x2="463.8" y2="171.1" stroke="#e65100" stroke-width="1.5" />
+    <polyline points="458.84,176.2 465,171.1 458.84,166" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="547.08" y1="171.1" x2="555" y2="171.1" stroke="#e65100" stroke-width="1.5" />
+    <polyline points="550.04,176.2 556.2,171.1 550.04,166" fill="none" stroke="#e65100" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="386.16" y1="223.6" x2="394.08" y2="223.6" stroke="#1565c0" stroke-width="1.5" />
+    <polyline points="389.12,228.7 395.28,223.6 389.12,218.5" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="440.88" y1="223.6" x2="448.8" y2="223.6" stroke="#1565c0" stroke-width="1.5" />
+    <polyline points="443.84,228.7 450,223.6 443.84,218.5" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="532.08" y1="223.6" x2="540" y2="223.6" stroke="#1565c0" stroke-width="1.5" />
+    <polyline points="535.04,228.7 541.2,223.6 535.04,218.5" fill="none" stroke="#1565c0" stroke-width="1.5" stroke-linejoin="round" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="255" y1="196.25" x2="290.32" y2="173.07" stroke="#6a1b9a" stroke-width="1.5" />
+    <polygon points="295,170 289.48,177.85 290.99,172.63 285.6,171.94" fill="#6a1b9a" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="255" y1="196.25" x2="276.14" y2="218.44" stroke="#6a1b9a" stroke-width="1.5" />
+    <polygon points="280,222.5 271.29,218.47 276.69,219.02 276.4,213.6" fill="#6a1b9a" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="635" y1="170" x2="669.4" y2="170" stroke="#2e7d32" stroke-width="1.5" />
+    <polygon points="675,170 666.07,173.53 670.2,170 666.07,166.47" fill="#2e7d32" />
+  </g>
+  <g class="flowing-arrow">
+    <line x1="450" y1="182.5" x2="450" y2="191.9" stroke="#1565c0" stroke-width="1.5" />
+    <polygon points="450,197.5 446.47,188.57 450,192.7 453.53,188.57" fill="#1565c0" />
+  </g>
+  <text x="200" y="118.25" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#6a1b9a">Observation</text>
+  <text x="200" y="137.05" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#6a1b9a">Storage</text>
+  <text x="200" y="167.45000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#6a1b9a">Feed Rate</text>
+  <text x="200" y="197.85000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#6a1b9a">Gas Prod.</text>
+  <text x="200" y="228.25" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#4a148c">Time</text>
+  <text x="200" y="258.65" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal" fill="#fff">24h Price</text>
+  <text x="465" y="152" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#e65100">Actor</text>
+  <text x="360.12" y="171.10000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">FC 256</text>
+  <text x="433.08" y="171.10000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">ReLU</text>
+  <text x="506.04" y="171.10000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#e65100">FC 256</text>
+  <text x="583.5600000000001" y="171.10000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#bf360c">FC 2</text>
+  <text x="450" y="204.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#1565c0">Critic</text>
+  <text x="345.12" y="223.60000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">FC 256</text>
+  <text x="418.08" y="223.60000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">ReLU</text>
+  <text x="491.04" y="223.60000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal" fill="#1565c0">FC 256</text>
+  <text x="568.5600000000001" y="223.60000000000002" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#0d47a1">FC 1</text>
+  <text x="715" y="170" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">Action</text>
+  <text x="450" y="222.5" text-anchor="middle" dominant-baseline="middle" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#1565c0">Value</text>
+</svg>
