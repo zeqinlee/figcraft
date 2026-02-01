@@ -6,7 +6,7 @@
 
 **Code-driven SVG diagram library for TypeScript / Node.js**
 
-Write a few lines of TypeScript, get publication-ready architecture diagrams.
+By <a href="https://xflowing.com/"><strong>XFlow</strong></a> · Write a few lines of TypeScript, get publication-ready architecture diagrams.
 
 [![npm version](https://img.shields.io/npm/v/figcraft?color=cb3837&label=npm)](https://www.npmjs.com/package/figcraft)
 [![license](https://img.shields.io/npm/l/figcraft?color=blue)](./LICENSE)
@@ -163,14 +163,6 @@ Contributions are welcome! Feel free to open an [issue](https://github.com/zeqin
 - [Documentation](https://figcraft.xflowing.com/docs.html)
 - [npm](https://www.npmjs.com/package/figcraft)
 - [GitHub](https://github.com/zeqinlee/figcraft)
-
-## Team
-
-<a href="https://xflowing.com/">
-  <img src="assets/logo.svg" width="28" alt="XFlow"> <strong>XFlow</strong>
-</a>
-
-Built and maintained by the **XFlow** team. Visit [xflowing.com](https://xflowing.com/) to learn more about our projects.
 
 ## License
 
