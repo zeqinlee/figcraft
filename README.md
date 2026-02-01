@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.svg" width="80" alt="Figcraft logo">
+
 # Figcraft
 
 **Code-driven SVG diagram library for TypeScript / Node.js**
