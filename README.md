@@ -164,6 +164,14 @@ Contributions are welcome! Feel free to open an [issue](https://github.com/zeqin
 - [npm](https://www.npmjs.com/package/figcraft)
 - [GitHub](https://github.com/zeqinlee/figcraft)
 
+## Team
+
+<a href="https://xflowing.com/">
+  <img src="assets/logo.svg" width="28" alt="XFlow"> <strong>XFlow</strong>
+</a>
+
+Built and maintained by the **XFlow** team. Visit [xflowing.com](https://xflowing.com/) to learn more about our projects.
+
 ## License
 
 [MIT](./LICENSE) — Made by [XFlow](https://xflowing.com/)
