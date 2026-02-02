@@ -132,7 +132,33 @@ fig.arrows(source, [t1, t2, t3], { head: 'stealth' })
 fig.arrows([s1, s2, s3], target, { head: 'stealth' })
 ```
 
-### 3.5 Fork 分叉箭头
+### 3.5 智能自动路由（v0.1.2+）
+
+箭头具备完全自动的路径规划能力，**无需手动指定 `from` / `to`**：
+
+```typescript
+// 最简用法 — 自动选择最优出发边和到达边
+fig.arrow(a, b, { path: 'polyline', head: 'stealth' })
+```
+
+**自动路由规则：**
+- 系统遍历源和目标的 4 条边（top/bottom/left/right），选择距离最短的锚点对
+- Polyline 自动选择水平起步（Z 型）、垂直起步或 U 型环绕模式
+- 当方向冲突（如 `from: 'left', to: 'right'`）时自动切换为 U 型环绕路径
+
+**自动避障：**
+- Polyline 箭头自动检测路径上的第三方元素并绕行
+- 垂直段碰撞 → 左右偏移；水平段碰撞 → U 型绕行
+- 多障碍物合并为一个包围盒，单次绕行避免路径震荡
+- 绕行方向自动选择空间更大的一侧
+
+**自动拉直：**
+- 端点差值 < 8px 时自动吸附为完美水平/垂直，消除微小偏移
+
+**这意味着 AI 生成图表时不需要精确计算锚点方向，系统会自动处理。**
+只需指定 `path: 'polyline'` 即可获得智能路由 + 避障 + 拉直的完整体验。
+
+### 3.6 Fork 分叉箭头
 
 ```typescript
 fig.fork(source, [t1, t2, t3], {
@@ -392,3 +418,5 @@ const ac = { color: '#000' }
 | Stack 元素层数不对 | 默认 `count: 3` | 指定 `count` 和 `stackOffset` |
 | 百分比定位不生效 | 非子元素不支持百分比 | 百分比仅在 `parent.rect()` 子元素中有效 |
 | 字体不生效 | 未注册字体 | 使用 `fig.font('名称', 'google')` 注册 |
+| 箭头穿过其他元素 | 使用了 straight 路径 | 改用 `path: 'polyline'`，系统自动避障 |
+| 不知道该指定哪个边 | 不确定 from/to 方向 | 不写 from/to，系统自动选择最优方向 |

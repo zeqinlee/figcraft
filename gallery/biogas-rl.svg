@@ -99,16 +99,16 @@
     <polygon points="195,182 191.47,173.07 195,177.2 198.53,173.07" fill="#333" />
   </g>
   <g class="flowing-arrow">
-    <line x1="112.35" y1="240" x2="112.47" y2="264.4" stroke="#333" stroke-width="1.5" />
-    <polygon points="112.5,270 108.92,261.09 112.48,265.2 115.99,261.06" fill="#333" />
+    <line x1="112.43" y1="240" x2="112.43" y2="264.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="112.43,270 108.89,261.07 112.43,265.2 115.96,261.07" fill="#333" />
   </g>
   <g class="flowing-arrow">
-    <line x1="175" y1="294" x2="209.4" y2="294" stroke="#333" stroke-width="1.5" />
-    <polygon points="215,294 206.07,297.53 210.2,294 206.07,290.47" fill="#333" />
+    <line x1="175" y1="294" x2="218.78" y2="294" stroke="#333" stroke-width="1.5" />
+    <polygon points="224.38,294 215.45,297.53 219.58,294 215.45,290.47" fill="#333" />
   </g>
   <g class="flowing-arrow">
-    <line x1="277.5" y1="316" x2="277.38" y2="342.4" stroke="#333" stroke-width="1.5" />
-    <polygon points="277.36,348 273.87,339.06 277.38,343.2 280.93,339.09" fill="#333" />
+    <line x1="277.43" y1="316" x2="277.43" y2="342.4" stroke="#333" stroke-width="1.5" />
+    <polygon points="277.43,348 273.9,339.07 277.43,343.2 280.96,339.07" fill="#333" />
   </g>
   <g class="flowing-arrow">
     <line x1="365" y1="165" x2="469.4" y2="165" stroke="#333" stroke-width="1.5" />

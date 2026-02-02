@@ -229,8 +229,14 @@ export class Figure {
     const baseY = (this.height - maxHeight) / 2
 
     for (let i = 0; i < elements.length; i++) {
-      const y = baseY + (maxHeight - sizes[i].h) / 2  // 每个元素各自垂直居中
-      elements[i].config.pos = [r(x), r(y)]
+      const centerY = baseY + (maxHeight - sizes[i].h) / 2 + sizes[i].h / 2
+      const centerX = x + sizes[i].w / 2
+      if (elements[i].type === 'circle' || elements[i].type === 'sphere') {
+        // Circle/Sphere pos 是圆心
+        elements[i].config.pos = [r(centerX), r(centerY)]
+      } else {
+        elements[i].config.pos = [r(x), r(baseY + (maxHeight - sizes[i].h) / 2)]
+      }
       x += sizes[i].w + gap
     }
   }
@@ -266,8 +272,13 @@ export class Figure {
     const baseX = (this.width - maxWidth) / 2
 
     for (let i = 0; i < elements.length; i++) {
-      const x = baseX + (maxWidth - sizes[i].w) / 2
-      elements[i].config.pos = [r(x), r(y)]
+      const centerX = baseX + (maxWidth - sizes[i].w) / 2 + sizes[i].w / 2
+      const centerY = y + sizes[i].h / 2
+      if (elements[i].type === 'circle' || elements[i].type === 'sphere') {
+        elements[i].config.pos = [r(centerX), r(centerY)]
+      } else {
+        elements[i].config.pos = [r(baseX + (maxWidth - sizes[i].w) / 2), r(y)]
+      }
       y += sizes[i].h + gap
     }
   }
@@ -314,15 +325,19 @@ export class Figure {
       const ri = Math.floor(i / cols)
       const ci = i % cols
 
-      let cx = startX
-      for (let c = 0; c < ci; c++) cx += colWidths[c] + cGap
-      cx += (colWidths[ci] - sizes[i].w) / 2
+      let cellX = startX
+      for (let c = 0; c < ci; c++) cellX += colWidths[c] + cGap
+      cellX += (colWidths[ci] - sizes[i].w) / 2
 
-      let cy = startY
-      for (let rr = 0; rr < ri; rr++) cy += rowHeights[rr] + rGap
-      cy += (rowHeights[ri] - sizes[i].h) / 2
+      let cellY = startY
+      for (let rr = 0; rr < ri; rr++) cellY += rowHeights[rr] + rGap
+      cellY += (rowHeights[ri] - sizes[i].h) / 2
 
-      elements[i].config.pos = [r(cx), r(cy)]
+      if (elements[i].type === 'circle' || elements[i].type === 'sphere') {
+        elements[i].config.pos = [r(cellX + sizes[i].w / 2), r(cellY + sizes[i].h / 2)]
+      } else {
+        elements[i].config.pos = [r(cellX), r(cellY)]
+      }
     }
   }
 
@@ -416,6 +431,10 @@ export class Figure {
     const anchor: AnchorPoint = typeof spec === 'string' ? { side: spec } : spec
     const at = anchor.at !== undefined ? resolvePercent(anchor.at) : 0.5
 
+    // 形状感知锚点：Trapezoid / Cylinder 使用专用方法
+    if (el.type === 'trapezoid') return this.getTrapezoidAnchor(el, b, anchor.side, at)
+    if (el.type === 'cylinder') return this.getCylinderAnchor(el, b, anchor.side, at)
+
     switch (anchor.side) {
       case 'top':    return { x: b.x + b.width * at,  y: b.y }
       case 'bottom': return { x: b.x + b.width * at,  y: b.y + b.height }
@@ -424,14 +443,226 @@ export class Figure {
     }
   }
 
+  /** Trapezoid 锚点：top 边按 topRatio 收窄，left/right 沿斜边插值 */
+  private getTrapezoidAnchor(el: Element, b: Bounds, side: Side, at: number): Point {
+    const topRatio = el.config.topRatio ?? 0.6
+    const inset = b.width * (1 - topRatio) / 2
+
+    switch (side) {
+      case 'top':
+        return { x: b.x + inset + (b.width - 2 * inset) * at, y: b.y }
+      case 'bottom':
+        return { x: b.x + b.width * at, y: b.y + b.height }
+      case 'left': {
+        // 左斜边从 (b.x + inset, b.y) 到 (b.x, b.y + b.height)
+        const t = at  // 0=top, 1=bottom
+        return { x: b.x + inset * (1 - t), y: b.y + b.height * t }
+      }
+      case 'right': {
+        // 右斜边从 (b.x + b.width - inset, b.y) 到 (b.x + b.width, b.y + b.height)
+        const t = at
+        return { x: b.x + b.width - inset * (1 - t), y: b.y + b.height * t }
+      }
+    }
+  }
+
+  /** Cylinder 锚点：top/bottom 按椭圆面计算，left/right 在柱体范围插值 */
+  private getCylinderAnchor(el: Element, b: Bounds, side: Side, at: number): Point {
+    const depthRatio = el.config.depth ?? 0.15
+    const ry = b.height * depthRatio
+    const cx = b.x + b.width / 2
+    const topCy = b.y + ry
+    const botCy = b.y + b.height - ry
+
+    switch (side) {
+      case 'top': {
+        // 椭圆面顶部：at=0.5 → 椭圆最高点
+        const angle = Math.PI * (1 - at)  // at=0 → π(左), at=0.5 → π/2(顶), at=1 → 0(右)
+        return { x: cx + (b.width / 2) * Math.cos(angle), y: topCy - ry * Math.sin(angle) }
+      }
+      case 'bottom': {
+        const angle = Math.PI * at  // at=0.5 → π/2(底)
+        return { x: cx - (b.width / 2) * Math.cos(angle), y: botCy + ry * Math.sin(angle) }
+      }
+      case 'left':
+        return { x: b.x, y: topCy + (botCy - topCy) * at }
+      case 'right':
+        return { x: b.x + b.width, y: topCy + (botCy - topCy) * at }
+    }
+  }
+
+  /**
+   * Polyline 避障：检测所有路由段是否穿过第三方元素，自动绕开。
+   * - 垂直段碰撞 → 偏移 x
+   * - 水平段碰撞 → 插入 U 型绕行（上下绕过障碍物）
+   */
+  private avoidPolylineObstacles(points: Point[], sourceId: string, targetId: string): Point[] {
+    if (points.length < 3) return points
+
+    const margin = 12
+
+    const obstacles: Bounds[] = []
+    for (const [id, b] of this.boundsMap.entries()) {
+      if (id === sourceId || id === targetId) continue
+      if (b.width <= 2 || b.height <= 2) continue
+      obstacles.push(b)
+    }
+    if (obstacles.length === 0) return points
+
+    // 检测候选 x 是否与任何障碍物碰撞（在 yMin~yMax 范围内）
+    const xHitsObstacle = (cx: number, yMin: number, yMax: number): boolean => {
+      for (const ob of obstacles) {
+        if (cx > ob.x && cx < ob.x + ob.width && yMax > ob.y && yMin < ob.y + ob.height) return true
+      }
+      return false
+    }
+    // 检测候选 y 的水平段是否与任何障碍物碰撞（在 xMin~xMax 范围内）
+    const yHitsObstacle = (cy: number, xMin: number, xMax: number): boolean => {
+      for (const ob of obstacles) {
+        if (cy > ob.y && cy < ob.y + ob.height && xMax > ob.x && xMin < ob.x + ob.width) return true
+      }
+      return false
+    }
+
+    let pts = points.map(p => ({ ...p }))
+
+    for (let pass = 0; pass < 5; pass++) {
+      let changed = false
+
+      for (let i = 0; i < pts.length - 1; i++) {
+        const p1 = pts[i]
+        const p2 = pts[i + 1]
+        const dx = Math.abs(p1.x - p2.x)
+        const dy = Math.abs(p1.y - p2.y)
+
+        // --- 垂直段碰撞：偏移 x（仅内部段）---
+        // 找出垂直段上所有碰撞的障碍，计算联合包围盒后偏移
+        if (dx < 1 && dy >= 1 && i >= 1 && i < pts.length - 2) {
+          const x = p1.x
+          const yMin = Math.min(p1.y, p2.y)
+          const yMax = Math.max(p1.y, p2.y)
+          const hits = obstacles.filter(b =>
+            x > b.x && x < b.x + b.width && yMax > b.y && yMin < b.y + b.height)
+          if (hits.length > 0) {
+            const cLeft = Math.min(...hits.map(b => b.x))
+            const cRight = Math.max(...hits.map(b => b.x + b.width))
+            const leftX = cLeft - margin
+            const rightX = cRight + margin
+            const leftClear = !xHitsObstacle(leftX, yMin, yMax)
+            const rightClear = !xHitsObstacle(rightX, yMin, yMax)
+            let newX: number
+            if (leftClear && rightClear) {
+              newX = Math.abs(leftX - x) <= Math.abs(rightX - x) ? leftX : rightX
+            } else if (leftClear) {
+              newX = leftX
+            } else if (rightClear) {
+              newX = rightX
+            } else {
+              newX = Math.abs(leftX - x) > Math.abs(rightX - x) ? leftX : rightX
+            }
+            pts[i].x = newX
+            pts[i + 1].x = newX
+            changed = true
+          }
+        }
+
+        // --- 水平段碰撞：插入 U 型绕行 ---
+        // 找出水平段上所有碰撞的障碍，计算联合包围盒后一次绕过
+        if (!changed && dy < 1 && dx > 1) {
+          const y = p1.y
+          const xMin = Math.min(p1.x, p2.x)
+          const xMax = Math.max(p1.x, p2.x)
+          const hits = obstacles.filter(b =>
+            y > b.y && y < b.y + b.height && xMax > b.x + 1 && xMin < b.x + b.width - 1)
+          if (hits.length > 0) {
+            const cLeft = Math.min(...hits.map(b => b.x))
+            const cRight = Math.max(...hits.map(b => b.x + b.width))
+            const cTop = Math.min(...hits.map(b => b.y))
+            const cBottom = Math.max(...hits.map(b => b.y + b.height))
+
+            const enterX = cLeft - margin
+            const exitX = cRight + margin
+            const topY = cTop - margin
+            const botY = cBottom + margin
+
+            const topClear = !yHitsObstacle(topY, enterX, exitX)
+            const botClear = !yHitsObstacle(botY, enterX, exitX)
+            let detourY: number
+            if (topClear && botClear) {
+              detourY = Math.abs(topY - y) <= Math.abs(botY - y) ? topY : botY
+            } else if (topClear) {
+              detourY = topY
+            } else if (botClear) {
+              detourY = botY
+            } else {
+              detourY = Math.abs(topY - y) > Math.abs(botY - y) ? topY : botY
+            }
+
+            const detour: Point[] = [
+              { x: enterX, y },
+              { x: enterX, y: detourY },
+              { x: exitX, y: detourY },
+              { x: exitX, y },
+            ]
+
+            // 跳过绕行区域内的后续冗余点
+            let j = i + 1
+            const goRight = p2.x >= p1.x
+            while (j < pts.length - 1) {
+              const px = pts[j].x
+              if (goRight ? px <= exitX : px >= exitX) j++
+              else break
+            }
+
+            const before = pts.slice(0, i + 1)
+            const after = pts.slice(j)
+            pts = [...before, ...detour, ...after]
+            changed = true
+          }
+        }
+
+        if (changed) break
+      }
+
+      if (!changed) break
+    }
+
+    return pts
+  }
+
+  /** Polyline 标签定位：找到最长线段的中点 */
+  private polylineLabelPosition(points: Point[]): Point {
+    let maxLen = 0
+    let bestMid: Point = { x: (points[0].x + points[points.length - 1].x) / 2, y: (points[0].y + points[points.length - 1].y) / 2 }
+    for (let i = 0; i < points.length - 1; i++) {
+      const len = Math.hypot(points[i + 1].x - points[i].x, points[i + 1].y - points[i].y)
+      if (len > maxLen) {
+        maxLen = len
+        bestMid = { x: (points[i].x + points[i + 1].x) / 2, y: (points[i].y + points[i + 1].y) / 2 }
+      }
+    }
+    return bestMid
+  }
+
+  /** 将标签位置限制在画布内 */
+  private clampLabelToCanvas(pt: Point, labelW: number, labelH: number): Point {
+    const margin = 4
+    return {
+      x: Math.max(margin + labelW / 2, Math.min(this.width - margin - labelW / 2, pt.x)),
+      y: Math.max(margin + labelH / 2, Math.min(this.height - margin - labelH / 2, pt.y)),
+    }
+  }
+
   /**
    * 自动吸附：找到两个元素之间距离最近的锚点对。
    * 遍历双方各 4 条边的中心点，返回距离最小的一对。
    */
-  private autoSnap(source: Element, target: Element): { from: Point; to: Point } {
+  private autoSnap(source: Element, target: Element): { from: Point; to: Point; fromSide: Side; toSide: Side } {
     const sides: Side[] = ['top', 'bottom', 'left', 'right']
     let bestFrom: Point = { x: 0, y: 0 }
     let bestTo: Point = { x: 0, y: 0 }
+    let bestFromSide: Side = 'right'
+    let bestToSide: Side = 'left'
     let minDist = Infinity
 
     for (const s of sides) {
@@ -443,10 +674,33 @@ export class Figure {
           minDist = d
           bestFrom = sp
           bestTo = tp
+          bestFromSide = s
+          bestToSide = t
         }
       }
     }
-    return { from: bestFrom, to: bestTo }
+    const { from, to } = this.straightenPoints(bestFrom, bestTo, 'straight')
+    return { from, to, fromSide: bestFromSide, toSide: bestToSide }
+  }
+
+  /**
+   * 自动拉直：若两端点近似水平/垂直（差值 < 8px），吸附到完美对齐。
+   * 仅对 straight/polyline 生效，curve 不处理。
+   */
+  private straightenPoints(from: Point, to: Point, path: string): { from: Point; to: Point } {
+    const T = 8
+    if (path === 'curve') return { from, to }
+    const dx = Math.abs(from.x - to.x)
+    const dy = Math.abs(from.y - to.y)
+    if (dx < T && dy >= T) {
+      const avgX = (from.x + to.x) / 2
+      return { from: { x: avgX, y: from.y }, to: { x: avgX, y: to.y } }
+    }
+    if (dy < T && dx >= T) {
+      const avgY = (from.y + to.y) / 2
+      return { from: { x: from.x, y: avgY }, to: { x: to.x, y: avgY } }
+    }
+    return { from, to }
   }
 
   // ========== SVG 渲染 ==========
@@ -1118,21 +1372,38 @@ export class Figure {
     let fromPt: Point
     let toPt: Point
 
-    // 解析锚点
+    // 解析锚点 + 自动推断边
+    let resolvedFromSide: Side | undefined
+    let resolvedToSide: Side | undefined
+
     if (cfg.from && cfg.to) {
       fromPt = this.getAnchor(arrow.source, cfg.from)
       toPt = this.getAnchor(arrow.target, cfg.to)
+      resolvedFromSide = typeof cfg.from === 'string' ? cfg.from as Side : (cfg.from as AnchorPoint).side
+      resolvedToSide = typeof cfg.to === 'string' ? cfg.to as Side : (cfg.to as AnchorPoint).side
     } else if (cfg.from) {
       fromPt = this.getAnchor(arrow.source, cfg.from)
-      toPt = this.findNearest(arrow.target, fromPt)
+      resolvedFromSide = typeof cfg.from === 'string' ? cfg.from as Side : (cfg.from as AnchorPoint).side
+      const nearest = this.findNearest(arrow.target, fromPt)
+      toPt = nearest.point
+      resolvedToSide = nearest.side
     } else if (cfg.to) {
       toPt = this.getAnchor(arrow.target, cfg.to)
-      fromPt = this.findNearest(arrow.source, toPt)
+      resolvedToSide = typeof cfg.to === 'string' ? cfg.to as Side : (cfg.to as AnchorPoint).side
+      const nearest = this.findNearest(arrow.source, toPt)
+      fromPt = nearest.point
+      resolvedFromSide = nearest.side
     } else {
       const snap = this.autoSnap(arrow.source, arrow.target)
       fromPt = snap.from
       toPt = snap.to
+      resolvedFromSide = snap.fromSide
+      resolvedToSide = snap.toSide
     }
+
+    // 自动拉直近似水平/垂直的箭头
+    const pathType0 = cfg.path ?? 'straight'
+    ;({ from: fromPt, to: toPt } = this.straightenPoints(fromPt, toPt, pathType0))
 
     const color = cfg.color ?? '#333333'
     const lineW = cfg.width ?? 1.5
@@ -1181,8 +1452,8 @@ export class Figure {
       labelPt = { x: (fromPt.x + 2 * cp.x + toPt.x) / 4, y: (fromPt.y + 2 * cp.y + toPt.y) / 4 }
 
     } else if (pathType === 'polyline') {
-      const fromSide = typeof cfg.from === 'string' ? cfg.from : (cfg.from as any)?.side
-      const toSide = typeof cfg.to === 'string' ? cfg.to : (cfg.to as any)?.side
+      const fromSide = resolvedFromSide
+      const toSide = resolvedToSide
       const startVert = fromSide === 'top' || fromSide === 'bottom'
       const cr = cfg.cornerRadius ?? 0
       let polyPoints: Point[]
@@ -1191,7 +1462,11 @@ export class Figure {
         // 垂直起步折线：↑/↓ → 水平 → ↑/↓ → 水平进入目标
         const vDir = fromSide === 'top' ? -1 : 1
         const gap = cfg.curve ?? 25
-        const midY = fromPt.y + vDir * gap
+        // 同方向同侧时（如 bottom→bottom），midY 必须超过两端最远锚点
+        const sameVertSide = fromSide === toSide
+        const midY = sameVertSide
+          ? (vDir > 0 ? Math.max(fromPt.y, toPt.y) : Math.min(fromPt.y, toPt.y)) + vDir * gap
+          : fromPt.y + vDir * gap
         const sy = fromPt.y + startOffset * vDir
         startAngle = vDir < 0 ? -Math.PI / 2 : Math.PI / 2
 
@@ -1218,7 +1493,7 @@ export class Figure {
             { x: toPt.x, y: ey },
           ]
         }
-        labelPt = { x: (fromPt.x + toPt.x) / 2, y: midY }
+        labelPt = this.polylineLabelPosition(polyPoints)
       } else {
         const sameSide = fromSide === toSide && (fromSide === 'left' || fromSide === 'right')
 
@@ -1226,7 +1501,9 @@ export class Figure {
           // 同侧绕行：← ↑/↓ → 或 → ↑/↓ ←
           const dir = fromSide === 'left' ? -1 : 1
           const bypassDist = cfg.curve ?? 30
-          const midX = fromPt.x + dir * bypassDist
+          // bypass 必须超过两端最远的锚点，否则水平段穿过目标元素
+          const edgeX = dir > 0 ? Math.max(fromPt.x, toPt.x) : Math.min(fromPt.x, toPt.x)
+          const midX = edgeX + dir * bypassDist
           startAngle = dir > 0 ? 0 : Math.PI
           endAngle = dir > 0 ? Math.PI : 0
           const sx = fromPt.x + startOffset * dir
@@ -1237,23 +1514,81 @@ export class Figure {
             { x: midX, y: toPt.y },
             { x: ex, y: toPt.y },
           ]
-          labelPt = { x: midX, y: (fromPt.y + toPt.y) / 2 }
+          labelPt = this.polylineLabelPosition(polyPoints)
         } else {
-          // 水平起步折线：→ 到中点 → ↕ → → 到终点
-          const midX = (fromPt.x + toPt.x) / 2
-          const sx = fromPt.x + startOffset * Math.sign(toPt.x - fromPt.x)
-          const ex = toPt.x - endOffset * Math.sign(toPt.x - fromPt.x)
-          endAngle = toPt.x >= fromPt.x ? 0 : Math.PI
-          startAngle = endAngle
-          polyPoints = [
-            { x: sx, y: fromPt.y },
-            { x: midX, y: fromPt.y },
-            { x: midX, y: toPt.y },
-            { x: ex, y: toPt.y },
-          ]
-          labelPt = { x: midX, y: (fromPt.y + toPt.y) / 2 }
+          // 检查标准 Z 型中点是否与出口/入口方向冲突
+          const testMidX = (fromPt.x + toPt.x) / 2
+          const exitBad = (fromSide === 'left' && testMidX > fromPt.x) ||
+                          (fromSide === 'right' && testMidX < fromPt.x)
+          const entryBad = (toSide === 'left' && testMidX > toPt.x) ||
+                           (toSide === 'right' && testMidX < toPt.x)
+
+          if (exitBad || entryBad) {
+            // U型环绕：出口/入口朝外，无法走标准Z型
+            const gap = cfg.curve ?? 25
+            const srcB = this.boundsMap.get(arrow.source.id)!
+            const tgtB = this.boundsMap.get(arrow.target.id)!
+
+            // 出口方向
+            const fromDir = fromSide === 'left' ? -1 : 1
+            startAngle = fromDir > 0 ? 0 : Math.PI
+
+            // 出口 X：沿出口方向超过元素边界
+            const exitX = fromDir < 0
+              ? Math.min(srcB.x, tgtB.x) - gap
+              : Math.max(srcB.x + srcB.width, tgtB.x + tgtB.width) + gap
+            const sx = fromPt.x + startOffset * fromDir
+
+            // 入口 X：沿入口方向超过元素边界
+            let entryX: number
+            if (toSide === 'right') {
+              entryX = Math.max(srcB.x + srcB.width, tgtB.x + tgtB.width) + gap
+              endAngle = Math.PI  // 箭头从右往左
+            } else if (toSide === 'left') {
+              entryX = Math.min(srcB.x, tgtB.x) - gap
+              endAngle = 0        // 箭头从左往右
+            } else {
+              entryX = toPt.x
+              endAngle = toPt.y > fromPt.y ? -Math.PI / 2 : Math.PI / 2
+            }
+            const ex = toSide === 'right' ? toPt.x + endOffset : toSide === 'left' ? toPt.x - endOffset : toPt.x
+
+            // 绕行 Y：选上方或下方，取距离较近的
+            const topY = Math.min(srcB.y, tgtB.y) - gap
+            const botY = Math.max(srcB.y + srcB.height, tgtB.y + tgtB.height) + gap
+            const wrapY = (Math.abs(fromPt.y - topY) <= Math.abs(fromPt.y - botY)) ? topY : botY
+
+            polyPoints = [
+              { x: sx, y: fromPt.y },
+              { x: exitX, y: fromPt.y },
+              { x: exitX, y: wrapY },
+              { x: entryX, y: wrapY },
+              { x: entryX, y: toPt.y },
+              { x: ex, y: toPt.y },
+            ]
+            labelPt = this.polylineLabelPosition(polyPoints)
+          } else {
+            // 水平起步折线：→ 到中点 → ↕ → → 到终点
+            const midX = testMidX
+            const sx = fromPt.x + startOffset * Math.sign(toPt.x - fromPt.x)
+            const ex = toPt.x - endOffset * Math.sign(toPt.x - fromPt.x)
+            endAngle = toPt.x >= fromPt.x ? 0 : Math.PI
+            startAngle = endAngle
+            polyPoints = [
+              { x: sx, y: fromPt.y },
+              { x: midX, y: fromPt.y },
+              { x: midX, y: toPt.y },
+              { x: ex, y: toPt.y },
+            ]
+            labelPt = this.polylineLabelPosition(polyPoints)
+          }
         }
       }
+
+      // 避障：偏移穿过第三方元素的内部路由段
+      polyPoints = this.avoidPolylineObstacles(polyPoints, arrow.source.id, arrow.target.id)
+      // 避障后重新计算标签位置
+      labelPt = this.polylineLabelPosition(polyPoints)
 
       if (cr > 0) {
         const d = this.buildRoundedPolylinePath(polyPoints, cr)
@@ -1420,17 +1755,18 @@ export class Figure {
     return lines.join('\n')
   }
 
-  /** 找到元素上离目标点最近的锚点 */
-  private findNearest(el: Element, target: Point): Point {
+  /** 找到元素上离目标点最近的锚点，同时返回所选的边 */
+  private findNearest(el: Element, target: Point): { point: Point; side: Side } {
     const sides: Side[] = ['top', 'bottom', 'left', 'right']
     let best = this.getAnchor(el, 'top')
+    let bestSide: Side = 'top'
     let minD = Infinity
     for (const s of sides) {
       const p = this.getAnchor(el, s)
       const d = Math.hypot(p.x - target.x, p.y - target.y)
-      if (d < minD) { minD = d; best = p }
+      if (d < minD) { minD = d; best = p; bestSide = s }
     }
-    return best
+    return { point: best, side: bestSide }
   }
 
   // ========== 11 种箭头头部 ==========
@@ -1846,24 +2182,40 @@ export class Figure {
       if (!cfg.label) continue
       if (cfg.labelOffset !== undefined) continue
 
-      // 计算端点（同 renderArrow 逻辑）
+      // 计算端点（同 renderArrow 逻辑）+ 自动推断边
       let fromPt: Point, toPt: Point
+      let resolvedFromSide: Side | undefined
+      let resolvedToSide: Side | undefined
+
       if (cfg.from && cfg.to) {
         fromPt = this.getAnchor(arrow.source, cfg.from)
         toPt = this.getAnchor(arrow.target, cfg.to)
+        resolvedFromSide = typeof cfg.from === 'string' ? cfg.from as Side : (cfg.from as AnchorPoint).side
+        resolvedToSide = typeof cfg.to === 'string' ? cfg.to as Side : (cfg.to as AnchorPoint).side
       } else if (cfg.from) {
         fromPt = this.getAnchor(arrow.source, cfg.from)
-        toPt = this.findNearest(arrow.target, fromPt)
+        resolvedFromSide = typeof cfg.from === 'string' ? cfg.from as Side : (cfg.from as AnchorPoint).side
+        const nearest = this.findNearest(arrow.target, fromPt)
+        toPt = nearest.point
+        resolvedToSide = nearest.side
       } else if (cfg.to) {
         toPt = this.getAnchor(arrow.target, cfg.to)
-        fromPt = this.findNearest(arrow.source, toPt)
+        resolvedToSide = typeof cfg.to === 'string' ? cfg.to as Side : (cfg.to as AnchorPoint).side
+        const nearest = this.findNearest(arrow.source, toPt)
+        fromPt = nearest.point
+        resolvedFromSide = nearest.side
       } else {
         const snap = this.autoSnap(arrow.source, arrow.target)
         fromPt = snap.from
         toPt = snap.to
+        resolvedFromSide = snap.fromSide
+        resolvedToSide = snap.toSide
       }
 
+      // 自动拉直（与 renderArrow 保持同步）
       const pathType = cfg.path ?? 'straight'
+      ;({ from: fromPt, to: toPt } = this.straightenPoints(fromPt, toPt, pathType))
+
       let labelPt: Point
 
       if (pathType === 'curve') {
@@ -1877,8 +2229,60 @@ export class Figure {
           y: (fromPt.y + 2 * cpy + toPt.y) / 4 - 8,
         }
       } else if (pathType === 'polyline') {
-        const midX = (fromPt.x + toPt.x) / 2
-        labelPt = { x: midX, y: (fromPt.y + toPt.y) / 2 - 8 }
+        // 使用与 renderArrow 相同的 polyline 路由逻辑构建点
+        const fromSide = resolvedFromSide
+        const toSide = resolvedToSide
+        const startVert = fromSide === 'top' || fromSide === 'bottom'
+        let polyPts: Point[]
+        if (startVert) {
+          const vDir = fromSide === 'top' ? -1 : 1
+          const midY = fromPt.y + vDir * (cfg.curve ?? 25)
+          if (toSide === 'left' || toSide === 'right') {
+            const turnX = (fromPt.x + toPt.x) / 2
+            polyPts = [fromPt, { x: fromPt.x, y: midY }, { x: turnX, y: midY }, { x: turnX, y: toPt.y }, toPt]
+          } else {
+            polyPts = [fromPt, { x: fromPt.x, y: midY }, { x: toPt.x, y: midY }, toPt]
+          }
+        } else {
+          const sameSide = fromSide === toSide && (fromSide === 'left' || fromSide === 'right')
+          if (sameSide) {
+            const dir = fromSide === 'left' ? -1 : 1
+            const midX = fromPt.x + dir * (cfg.curve ?? 30)
+            polyPts = [fromPt, { x: midX, y: fromPt.y }, { x: midX, y: toPt.y }, toPt]
+          } else {
+            const testMidX = (fromPt.x + toPt.x) / 2
+            const exitBad = (fromSide === 'left' && testMidX > fromPt.x) ||
+                            (fromSide === 'right' && testMidX < fromPt.x)
+            const entryBad = (toSide === 'left' && testMidX > toPt.x) ||
+                             (toSide === 'right' && testMidX < toPt.x)
+            if (exitBad || entryBad) {
+              const gap = cfg.curve ?? 25
+              const srcB = this.boundsMap.get(arrow.source.id)!
+              const tgtB = this.boundsMap.get(arrow.target.id)!
+              const fromDir = fromSide === 'left' ? -1 : 1
+              const exitX = fromDir < 0
+                ? Math.min(srcB.x, tgtB.x) - gap
+                : Math.max(srcB.x + srcB.width, tgtB.x + tgtB.width) + gap
+              let entryX: number
+              if (toSide === 'right') {
+                entryX = Math.max(srcB.x + srcB.width, tgtB.x + tgtB.width) + gap
+              } else if (toSide === 'left') {
+                entryX = Math.min(srcB.x, tgtB.x) - gap
+              } else {
+                entryX = toPt.x
+              }
+              const topY = Math.min(srcB.y, tgtB.y) - gap
+              const botY = Math.max(srcB.y + srcB.height, tgtB.y + tgtB.height) + gap
+              const wrapY = (Math.abs(fromPt.y - topY) <= Math.abs(fromPt.y - botY)) ? topY : botY
+              polyPts = [fromPt, { x: exitX, y: fromPt.y }, { x: exitX, y: wrapY }, { x: entryX, y: wrapY }, { x: entryX, y: toPt.y }, toPt]
+            } else {
+              const midX = testMidX
+              polyPts = [fromPt, { x: midX, y: fromPt.y }, { x: midX, y: toPt.y }, toPt]
+            }
+          }
+        }
+        const mid = this.polylineLabelPosition(polyPts)
+        labelPt = { x: mid.x, y: mid.y - 8 }
       } else {
         labelPt = { x: (fromPt.x + toPt.x) / 2, y: (fromPt.y + toPt.y) / 2 - 8 }
       }
@@ -1921,6 +2325,9 @@ export class Figure {
           if (resolved) break
         }
       }
+
+      // 限制标签在画布内
+      labelPt = this.clampLabelToCanvas(labelPt, labelW, labelH)
 
       this.arrowLabelPositions.set(arrow, labelPt)
     }

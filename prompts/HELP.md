@@ -125,10 +125,24 @@ await fig.export('out.pdf')                             // PDF
 
 配置完成后，用自然语言描述你想要的图表，AI 智能体会自动调用 figcraft 生成。
 
+## 智能路由（v0.1.2+）
+
+箭头支持自动路径规划，无需手动指定 `from` / `to`：
+
+```typescript
+// 自动选择最优方向，自动避开中间元素
+fig.arrow(a, b, { path: 'polyline', head: 'stealth' })
+```
+
+- 自动选择出发边和到达边
+- 自动避开路径上的其他元素
+- 端点微偏移自动拉直
+- 支持所有形状（Rect、Circle、Diamond、Trapezoid、Cylinder、Cuboid、Sphere、Stack）
+
 ## 常见问题
 
 **Q: 元素之间的箭头歪了怎么办？**
-确保两个元素的中心 X（垂直箭头）或中心 Y（水平箭头）对齐。可以用百分比锚点精确控制：`from: { side: 'bottom', at: '30%' }`
+v0.1.2+ 已内置自动拉直（8px 阈值）。也可手动确保中心对齐，或用百分比锚点：`from: { side: 'bottom', at: '30%' }`
 
 **Q: 元素重叠在一起了？**
 设置 `antiOverlap: false` 允许元素叠放（适用于背景容器 + 前景元素的场景）。
