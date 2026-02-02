@@ -1,6 +1,6 @@
 {
   "name": "figcraft",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Code-driven SVG diagram library for TypeScript / Node.js. 10 shapes, 11 arrow heads, smart layouts, multi-format export, MCP integration.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

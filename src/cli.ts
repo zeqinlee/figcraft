@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const VERSION = '0.1.1'
+const VERSION = '0.2.0'
 
 const HELP_HEADER = `
 Figcraft v${VERSION} — Code-driven SVG diagram library
@@ -685,8 +685,8 @@ if (!cmd || cmd === 'help' || cmd === '--help' || cmd === '-h') {
     }
   }
 } else if (cmd === '--version' || cmd === '-v') {
-  console.log(`flowing v${VERSION}`)
+  console.log(`figcraft v${VERSION}`)
 } else {
   console.log(`Unknown command: "${cmd}"`)
-  console.log('Run "flowing help" for usage information.')
+  console.log('Run "figcraft help" for usage information.')
 }

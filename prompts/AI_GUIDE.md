@@ -132,7 +132,7 @@ fig.arrows(source, [t1, t2, t3], { head: 'stealth' })
 fig.arrows([s1, s2, s3], target, { head: 'stealth' })
 ```
 
-### 3.5 智能自动路由（v0.1.2+）
+### 3.5 智能自动路由（v0.2.0+）
 
 箭头具备完全自动的路径规划能力，**无需手动指定 `from` / `to`**：
 

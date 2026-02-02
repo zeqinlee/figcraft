@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1.2 (2026-02-02)
+## v0.2.0 (2026-02-02)
 
 ### 内部优化（公共 API 不变）
 
@@ -44,6 +44,11 @@
 #### 同侧绕行修正
 - `from: 'right', to: 'right'` 等同侧场景，bypass 距离超过两端最远锚点
 - 垂直同侧（`bottom → bottom`）同理修正
+
+### 修复
+- CLI 版本号与 package.json 同步（v0.1.2 中 CLI 显示为 `flowing v0.1.1`）
+- CLI 品牌名修正：`flowing` → `figcraft`
+- `figcraft -v` 现在正确输出 `figcraft v0.2.0`
 
 ### 支持的形状
 所有形状均支持自动路由与避障：
